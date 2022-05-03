@@ -72,7 +72,7 @@ params:
     # home-info mode
     homeInfoParams:
         Title: ""
-        Content: ""
+        Content: "![meadow](/home.jpg)"
         
     socialIcons:
         - name: instagram
