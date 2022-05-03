@@ -1,0 +1,28 @@
+{{- with site.Params.homeInfoParams }}
+<div class="o-grid">
+    <div class="o-grid__col o-grid__col--center o-grid__col--9-10-m o-grid__col--2-3-l o-grid__col--4-4-l">
+      
+  <div class="c-home ">
+    <div class="c-home__media">
+      <img class="c-home__image lazyloaded" data-src="/home.jpg" alt="Ryan Bagley" src="/home.jpg">
+    </div>
+
+  <div class="c-home__content ">
+    <section class="c-content">
+      <h2 id="hello">Hello. </h2><p>I'm Ryan Bagley, a network engineer 💻 and outdoor adventurer 🏃&zwj;♂️ living in the American West. I enjoy sharing these adventures so that people other than my dogs 🐕&zwj;🦺 can see the beauty of this peculiar geographic region. I also write about topics related to my hobbies and technical interests. You might see a few networking articles sneak in but I will try to mostly keep it easy like Sunday morning.</p><p>If you enjoy thoughtful articles 📚 and some neat pictures from a guy running around in the wilderness 🏕️ then check out an article in my archive or add my <a href="https://ryanbagley.com/blog/rss">RSS feed</a> to your preferred reader.</p>
+    </section>
+  </div>
+</div>
+<article class="first-entry home-info">
+    <header class="entry-header">
+        <h1>{{ .Title | markdownify }}</h1>
+    </header>
+    <div class="entry-content">
+        <p>{{ .Content | markdownify }}</p>
+    </div>
+      
+    <footer class="entry-footer">
+        {{ partial "social_icons.html" site.Params.socialIcons }}
+    </footer>
+</article>
+{{- end -}}

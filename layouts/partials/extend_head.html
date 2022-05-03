@@ -6,15 +6,61 @@
 :root {
     --theme: #F6F4F2;
     --code-bg: #F6F4F2;
-    --nav-width: 720px;
-    --header-height: 120px;
+    --entry: rgb(238 237 235);
+    --nav-width: 950px;
 }
 .logo a, .nav {
     font-weight:900;
-    font-size: 150%;
+    font-size: 34px;
+}
+.header {
+    padding: 20px;
+}
+#menu a {
+    font-size: 22px;
+    font-weight:900;
+}
+p, .post-description {
+    font-size: 20px;
 }
 * {
     font-family: 'Source Serif Pro', serif;
+}
+.c-home {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-template-areas: "media content";
+    margin-bottom: 40px;
+    width: 1150px;
+    background-color: #eeedeb;
+
+}
+.main {
+    display: flex;
+    justify-content: center;
+}
+.c-home__media {
+    grid-area: media;
+    grid-row-start: media;
+    grid-column-start: media;
+    grid-row-end: media;
+    grid-column-end: media;
+}
+.c-home__content {
+    grid-area: content;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+.o-grid__col--center {
+    margin: 0 auto;
+    flex-grow: initial;
+}
+.o-grid {
+    display: flex;
+    flex-wrap: wrap;
 }
 </style>
 </head>

@@ -1,4 +1,4 @@
-baseURL: "https://ryanbagley.com/"
+baseURL: "https://79a5fde9.test-site-3wq.pages.dev/"
 title: Ryan Bagley
 paginate: 5
 theme: PaperMod
@@ -71,13 +71,9 @@ params:
 
     # home-info mode
     homeInfoParams:
-        Title: "Hi there \U0001F44B"
-        Content: "Welcome to demo of hugo’s theme PaperMod.
-
-PaperMod is a simple but fast and responsive theme with useful feature-set that enhances UX.
-Do give a 🌟 on Github !
-PaperMod is based on theme Paper."
-
+        Title: ""
+        Content: ""
+        
     socialIcons:
         - name: instagram
           url: "https://twitter.com/"
@@ -98,11 +94,6 @@ PaperMod is based on theme Paper."
         hidden: true # hide everywhere but not in structured data
         hiddenInList: true # hide on list pages and home
         hiddenInSingle: true # hide on single page
-
-    editPost:
-        URL: "https://github.com/<path_to_repo>/content"
-        Text: "Suggest Changes" # edit text
-        appendFilePath: true # to append file path to Edit link
 
     # for search
     # https://fusejs.io/api/options.html
