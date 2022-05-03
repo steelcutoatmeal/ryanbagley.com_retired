@@ -1,5 +1,5 @@
-baseURL: "https://examplesite.com/"
-title: ExampleSite
+baseURL: "https://ryanbagley.com/"
+title: Ryan Bagley
 paginate: 5
 theme: PaperMod
 
@@ -7,33 +7,33 @@ enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
-pygmentsUseClasses: true
+pygmentsUseClasses: false
 
-googleAnalytics: UA-123-45
+#googleAnalytics: 
 
 minify:
     disableXML: true
-    minifyOutput: true
+    minifyOutput: false
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    title: ExampleSite
+    title: Ryan Bagley
     description: "ExampleSite description"
     keywords: [Blog, Portfolio, PaperMod]
-    author: Me
+    # author: Ryan Bagley
     # author: ["Me", "You"] # multiple authors
     images: ["<link or path of image for opengraph, twitter-cards>"]
     DateFormat: "January 2, 2006"
-    defaultTheme: auto # dark, light
-    disableThemeToggle: false
+    defaultTheme: light
+    disableThemeToggle: true
 
     ShowReadingTime: true
-    ShowShareButtons: true
-    ShowPostNavLinks: true
-    ShowBreadCrumbs: true
+    ShowShareButtons: false
+    ShowPostNavLinks: false
+    ShowBreadCrumbs: false
     ShowCodeCopyButtons: false
     disableSpecial1stPost: false
-    disableScrollToTop: false
+    disableScrollToTop: true
     comments: false
     hidemeta: false
     hideSummary: false
@@ -72,14 +72,18 @@ params:
     # home-info mode
     homeInfoParams:
         Title: "Hi there \U0001F44B"
-        Content: Welcome to my blog
+        Content: "Welcome to demo of hugo’s theme PaperMod.
+
+PaperMod is a simple but fast and responsive theme with useful feature-set that enhances UX.
+Do give a 🌟 on Github !
+PaperMod is based on theme Paper."
 
     socialIcons:
-        - name: twitter
+        - name: instagram
           url: "https://twitter.com/"
-        - name: stackoverflow
+        - name: telegram
           url: "https://stackoverflow.com"
-        - name: github
+        - name: email
           url: "https://github.com/"
 
     analytics:
@@ -113,17 +117,13 @@ params:
 menu:
     main:
         - identifier: archive
-          name: archive
+          name: Archive
           url: /archives/
           weight: 10
-        - identifier: tags
-          name: tags
-          url: /tags/
-          weight: 20
-        - identifier: example
-          name: example.org
-          url: https://example.org
-          weight: 30
+        - identifier: about
+          name: About
+          url: /about/
+          weight: 20      
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
 # markup:
