@@ -1,9 +1,9 @@
 ---
 title: "Broadwater Meadow"
-date: 2019-09-15T11:30:03+00:00
+date: 2021-09-06T11:30:03+00:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["first"]
+# tags: ["first"]
 # author: "Me"
 # author: ["Me", "You"] # multiple authors
 showToc: true
@@ -30,12 +30,8 @@ cover:
     hidden: true # only hide on current single page
 ---
 
-
-blah blah 
 ![This is an image](images/welcome.jpg)
 
-
-now a giant image
 ![meadow](images/broadwater-large.jpg)
 
 After the dirty kerfuffle earlier in the summer I decided to pursue some luxury camping conditions. Obviously, the great motivation here was to reduce the pounds of dirt my dogs could absorb into their fur. Another was to solicit my wife into the great outdoors with an easy and enjoyable camping experience. I always feel better blundering around and making obvious mistakes when I have my significant other along with me to cushion the blow to my ego when things inevitably go wrong. If I could just find the right camping location I might just might protect the dogs from themselves and provide my wife with another positive outdoor experience.
