@@ -2,6 +2,7 @@
     --theme: #F6F4F2;
     --code-bg: #F6F4F2;
     --entry: rgb(238 237 235);
+    --secondary: rgb(30, 30, 30);
 }
 @font-face {
   font-family: 'Source Serif Pro';
