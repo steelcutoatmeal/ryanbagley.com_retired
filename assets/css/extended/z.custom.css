@@ -56,6 +56,9 @@
     font-weight:900;
     font-size: 34px;
 }
+.logo a:hover, .nav {
+    color: #ed0c14;
+}
 .header {
     padding: 20px;
 }
@@ -63,8 +66,17 @@
     font-size: 22px;
     font-weight:900;
 }
+#menu a:hover {
+    color: #ed0c14;
+}
+#menu .active {
+    font-weight: 900;
+}
 p, .post-description {
     font-size: 20px;
+}
+.post-description {
+    font-style: italic;
 }
 * {
     font-family: 'Source Serif Pro', serif;
