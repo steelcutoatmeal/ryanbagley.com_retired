@@ -13,7 +13,7 @@ const __dirname = dirname(__filename);
 // resolve assets directories
 const dir = resolve(__dirname, 'img');
 const iconDist = resolve(__dirname, '..', 'static/icons');
-const imgDist = resolve(__dirname, '..', 'static/img');
+const imgDist = resolve(__dirname, '..', 'assets/img');
 // image variants for conversion
 const variants = ['jpeg', 'webp', 'avif'];
 const icons = [
