@@ -1,0 +1,44 @@
+{{/*  find image format  */}}
+{{ $svg := .src | findRE "svg" }}
+{{ $gif := .src | findRE "gif" }}
+{{ $type := .src | replaceRE "(.*).(png|jpg|jpeg)" "$2" }}
+{{ $imgMain := .src | replaceRE "(.*).(png|jpg|jpeg)" "$1" }}
+
+{{/*  generate image variant paths  */}}
+{{ $avif := print $imgMain ".avif" }}
+{{ $webp := print $imgMain ".webp" }}
+{{ $img := print $imgMain "." $type }}
+
+{{ $isHidden := cond (ne .hidden nil) "true" "false" }}
+
+{{/*  render SVG/GIF image markup  */}}
+{{ if or (eq (index $svg 0) "svg") (eq (index $gif 0) "gif") }}
+  {{ $simple := resources.Get (print "/img/" $img) }}
+  <div class="img-wrap{{ with .picClasses }} {{ . }}{{ end }}">
+    <img
+      src="{{ $simple.Permalink }}"
+      alt="{{ .alt }}"
+      {{ with .imgClasses }}class="{{ . }}"{{ end }}
+      width="{{ .sizing }}"
+      aria-hidden="{{ $isHidden }}"
+      loading="lazy"
+    />
+  </div>
+{{/*  render progressive images markup  */}}
+{{ else }}
+<picture class="img-wrap{{ with .picClasses }} {{ . }}{{ end }}">
+  {{ $avifPrimary := resources.Get (print "/img/" $avif) }}
+  <source srcset="{{ $avifPrimary.Permalink }}" type="image/avif" />
+  {{ $webpPrimary := resources.Get (print "/img/" $webp) }}
+  <source srcset="{{ $webpPrimary.Permalink }}" type="image/webp" />
+  {{ $imgPrimary := resources.Get (print "/img/" $img) }}
+  <img
+    src="{{ $imgPrimary.Permalink }}"
+    alt="{{ .alt }}"
+    {{ with .imgClasses }}class="{{ . }}"{{ end }}
+    width="{{ .sizing }}"
+    aria-hidden="{{ $isHidden }}"
+    loading="lazy"
+  />
+</picture>
+{{ end }}
