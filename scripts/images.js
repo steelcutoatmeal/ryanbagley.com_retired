@@ -12,8 +12,8 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 // resolve assets directories
 const dir = resolve(__dirname, 'img');
-const iconDist = resolve(__dirname, '..', 'assets/icons');
-const imgDist = resolve(__dirname, '..', 'assets/img');
+const iconDist = resolve(__dirname, '..', 'static/icons');
+const imgDist = resolve(__dirname, '..', 'static/img');
 // image variants for conversion
 const variants = ['jpeg', 'webp', 'avif'];
 const icons = [
@@ -48,8 +48,8 @@ const fmtImage = async src => {
     const image = sharp(input);
 
     // create variants
-    await image
-      .resize(1024, undefined, {
+    return image
+      .resize(896, undefined, {
         background: { r: 255, g: 255, b: 255, alpha: 0.0 },
         fit: 'contain',
       })
@@ -62,14 +62,7 @@ const fmtImage = async src => {
 
     console.info(`[IMG] - ${name} asset created`);
   } catch (err) {
-    throw `[ERROR] - ${JSON.stringify(
-      {
-        name,
-        err,
-      },
-      undefined,
-      2
-    )}`;
+    throw new Error(err);
   }
 };
 
@@ -102,14 +95,7 @@ const fmtIcon = async (name, size) => {
 
     console.info(`[IMG] - ${name}-${size}x${size} created`);
   } catch (err) {
-    throw `[ERROR] - ${JSON.stringify(
-      {
-        name,
-        err,
-      },
-      undefined,
-      2
-    )}`;
+    throw new Error(err);
   }
 };
 
@@ -122,6 +108,7 @@ const fmtIcon = async (name, size) => {
 
     await Promise.all(ops);
   } catch (err) {
-    throw new Error(err);
+    console.error(err);
+    process.exit(1);
   }
 })();
