@@ -1,0 +1,11 @@
+.cache
+.netlify
+.eslintrc.js
+postcss.config.js
+prettier.config.js
+build
+coverage
+dist
+dist-ssr
+node_modules
+public
