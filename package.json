@@ -6,7 +6,7 @@
     "build": "hugo -e production --minify",
     "clean": "rm -rf public",
     "clean:node": "rm -rf node_modules",
-    "format": "prettier --write \"assets/**/*.{ts,js,css,scss}\"",
+    "format": "prettier --write \"assets/**/*.{js,css,scss}\"",
     "img": "esbuild \"scripts/images.js\"",
     "lint": "eslint --fix --no-error-on-unmatched-pattern \"assets/**/*.js\"",
     "serve": "npm run build && serve public",
