@@ -7,9 +7,11 @@ enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
+canonifyURLs: true
+languageCode: en-us
+metaDataFormat: yaml
 pygmentsUseClasses: false
-
-#googleAnalytics: 
+summarylength: 40
 
 minify:
     disableXML: true
@@ -72,10 +74,8 @@ params:
     # home-info mode
     homeInfoParams:
         Title: ""
-        Content: " # Hello.
+        Content: " # Hello. I'm Ryan Bagley, a network engineer 💻 and outdoor adventurer 🏃‍♂️ living in the American West. I enjoy sharing these adventures so that people other than my dogs 🐕‍🦺 can see the beauty of this peculiar geographic region. I also write about topics related to my hobbies and technical interests. You might see a few networking articles sneak in but I will try to mostly keep it easy like Sunday morning. If you enjoy thoughtful articles 📚 and some neat pictures from a guy running around in the wilderness 🏕️ then check out an article in my archive or add my RSS feed to your preferred reader."
 
-I'm Ryan Bagley, a network engineer 💻 and outdoor adventurer 🏃‍♂️ living in the American West. I enjoy sharing these adventures so that people other than my dogs 🐕‍🦺 can see the beauty of this peculiar geographic region. I also write about topics related to my hobbies and technical interests. You might see a few networking articles sneak in but I will try to mostly keep it easy like Sunday morning. If you enjoy thoughtful articles 📚 and some neat pictures from a guy running around in the wilderness 🏕️ then check out an article in my archive or add my RSS feed to your preferred reader."
-        
     socialIcons:
         - name: instagram
           url: "https://www.instagram.com/tcp.rst/"
@@ -116,13 +116,4 @@ menu:
         - identifier: about
           name: About
           url: /about/
-          weight: 20      
-# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
-# pygmentsUseClasses: true
-# markup:
-#     highlight:
-#         # anchorLineNos: true
-#         codeFences: true
-#         guessSyntax: true
-#         lineNos: true
-#         style: monokai
+          weight: 20
