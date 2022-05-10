@@ -11,7 +11,8 @@ const globSync = glob.sync;
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 // resolve assets directories
-const dir = resolve(__dirname, 'img');
+const postSrc = resolve(__dirname, '..', 'content/posts');
+const mainSrc = resolve(__dirname, 'img');
 const iconDist = resolve(__dirname, '..', 'static/icons');
 const imgDist = resolve(__dirname, '..', 'assets/img');
 // image variants for conversion
@@ -26,26 +27,28 @@ const icons = [
   { name: 'icon', size: 256 },
   { name: 'icon', size: 512 },
 ];
+const imgMatch = new RegExp('(.*)/([a-zA-Z_-]+).png', 'g');
 
 /**
  * Create various size and format variants of an image.
  * @function
  * @async
  *
- * @param {string} src Image to format and convert
+ * @param {string} src image to format and convert
+ * @param {string} dist converted image destination directory
  *
  * @returns {Promise<void>}
  */
-const fmtImage = async src => {
-  const input = resolve(dir, src);
-  const name = src.replace(/([a-zA-Z_]+).png/g, '$1');
+const fmtImage = async (src, dist) => {
+  const name = src.replace(imgMatch, '$2');
 
   // map array to promises
   const promises = variants.map(async ext => {
     // image options
     const fileName = `${name}.${ext}`;
-    const output = `${imgDist}/${fileName}`;
-    const image = sharp(input);
+    const output = `${dist}/${fileName}`;
+    console.info({ name, fileName, output });
+    const image = sharp(src);
 
     // create variants
     return image
@@ -77,7 +80,7 @@ const fmtImage = async src => {
  * @returns {Promise<void>}
  */
 const fmtIcon = async (name, size) => {
-  const input = resolve(dir, 'favicon.png');
+  const input = resolve(mainSrc, 'favicon.png');
 
   // image options
   const fileName = `${name}-${size}x${size}.png`;
@@ -101,10 +104,15 @@ const fmtIcon = async (name, size) => {
 
 (async () => {
   try {
-    const imgFiles = globSync('*.png', { cwd: dir });
+    const imgFiles = globSync('*.png', { absolute: true, cwd: mainSrc });
+    const postImgFiles = globSync('**/*.png', { absolute: true, cwd: postSrc });
     const iconOps = icons.map(icon => fmtIcon(icon.name, icon.size));
-    const imgOps = imgFiles.map(file => fmtImage(file));
-    const ops = [...iconOps, ...imgOps];
+    const imgOps = imgFiles.map(file => fmtImage(file, imgDist));
+    const postImgOps = postImgFiles.map(file => {
+      const mtchImgDist = file.replace(imgMatch, '$1');
+      return fmtImage(file, mtchImgDist);
+    });
+    const ops = [...iconOps, ...imgOps, ...postImgOps];
 
     await Promise.all(ops);
   } catch (err) {
