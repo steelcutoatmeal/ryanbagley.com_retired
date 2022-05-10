@@ -19,7 +19,8 @@
       src="{{ $simple.Permalink }}"
       alt="{{ .alt }}"
       {{ with .imgClasses }}class="{{ . }}"{{ end }}
-      width="{{ .sizing }}"
+      {{ with .height }}height="{{ . }}"{{ end }}
+      width="{{ .width }}"
       aria-hidden="{{ $isHidden }}"
       loading="lazy"
     />
@@ -36,7 +37,8 @@
     src="{{ $imgPrimary.Permalink }}"
     alt="{{ .alt }}"
     {{ with .imgClasses }}class="{{ . }}"{{ end }}
-    width="{{ .sizing }}"
+    {{ with .height }}height="{{ . }}"{{ end }}
+    width="{{ .width }}"
     aria-hidden="{{ $isHidden }}"
     loading="lazy"
   />
