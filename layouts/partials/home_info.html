@@ -1,7 +1,10 @@
 {{- with site.Params.homeInfoParams }}
 <article class="first-entry home-info">
     <header class="entry-header">
-        <h1>{{ .Title | markdownify }} <img src="/home.webp" width="720" height="900" alt="meadow" /></h1>
+        <h1>
+            {{ .Title | markdownify }}
+        </h1>
+        {{ partial "img.html" (dict "src" "home.jpeg" "alt" "meadow" "width" "720" "height" "900") }}
     </header>
     <div class="entry-content">
         <p>{{ .Content | markdownify }}</p>
