@@ -11,10 +11,9 @@
 
 {{/*  render SVG/GIF image markup  */}}
 {{ if or (eq (index $svg 0) "svg") (eq (index $gif 0) "gif") }}
-  {{ $simple := resources.Get (print "/img/" $img) }}
   <div class="img-wrap">
     <img
-      src="{{ $simple.Permalink }}"
+      src='{{  $img }}'
       alt="{{ .PlainText }}"
       loading="lazy"
     />
@@ -22,13 +21,10 @@
 {{/*  render progressive images markup  */}}
 {{ else }}
   <picture class="img-wrap">
-    {{ $avifPrimary := resources.Get (print "/img/" $avif) }}
-    <source srcset="{{ $avifPrimary.Permalink }}" type="image/avif" />
-    {{ $webpPrimary := resources.Get (print "/img/" $webp) }}
-    <source srcset="{{ $webpPrimary.Permalink }}" type="image/webp" />
-    {{ $imgPrimary := resources.Get (print "/img/" $img) }}
+    <source srcset='{{  $avif }}' type="image/avif" />
+    <source srcset='{{  $webp }}' type="image/webp" />
     <img
-      src="{{ $imgPrimary.Permalink }}"
+      src='{{  $img }}'
       alt="{{ .PlainText }}"
       loading="lazy"
     />
