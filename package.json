@@ -1,11 +1,13 @@
 {
   "name": "test-site",
   "version": "1.0.0",
+  "type": "module",
   "scripts": {
     "build": "hugo -e production --minify",
     "clean": "rm -rf public",
     "clean:node": "rm -rf node_modules",
     "format": "prettier --write \"assets/**/*.{ts,js,css,scss}\"",
+    "img": "esbuild \"scripts/images.js\"",
     "lint": "eslint --fix --no-error-on-unmatched-pattern \"assets/**/*.js\"",
     "serve": "npm run build && serve public",
     "start": "hugo --disableFastRender --minify serve"
@@ -19,6 +21,11 @@
     "url": "https://github.com/steelcutoatmeal/test-site/issues"
   },
   "homepage": "https://github.com/steelcutoatmeal/test-site#readme",
+  "dependencies": {
+    "glob": "^8.0.1",
+    "replace-in-file": "^6.3.2",
+    "sharp": "^0.30.4"
+  },
   "devDependencies": {
     "@babel/cli": "^7.14.8",
     "@babel/core": "^7.15.0",
@@ -30,6 +37,7 @@
     "babel-loader": "^8.2.2",
     "browserslist": "^4.16.7",
     "cssnano": "^5.0.7",
+    "esbuild": "^0.14.38",
     "eslint": "^7.20.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.22.1",
