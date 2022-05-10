@@ -1,5 +1,5 @@
 /* eslint-disable id-length */
-import { dirname, resolve } from 'path';
+import { basename, dirname, extname, resolve } from 'path';
 import { fileURLToPath } from 'url';
 
 import glob from 'glob';
@@ -27,7 +27,6 @@ const icons = [
   { name: 'icon', size: 256 },
   { name: 'icon', size: 512 },
 ];
-const imgMatch = new RegExp('(.*)/([a-zA-Z_-]+).png', 'g');
 
 /**
  * Create various size and format variants of an image.
@@ -35,19 +34,18 @@ const imgMatch = new RegExp('(.*)/([a-zA-Z_-]+).png', 'g');
  * @async
  *
  * @param {string} src image to format and convert
- * @param {string} dist converted image destination directory
  *
  * @returns {Promise<void>}
  */
-const fmtImage = async (src, dist) => {
-  const name = src.replace(imgMatch, '$2');
+const fmtImage = async src => {
+  const dist = dirname(src);
+  const name = basename(src, extname(src));
 
   // map array to promises
   const promises = variants.map(async ext => {
     // image options
     const fileName = `${name}.${ext}`;
     const output = `${dist}/${fileName}`;
-    console.info({ name, fileName, output });
     const image = sharp(src);
 
     // create variants
@@ -108,10 +106,7 @@ const fmtIcon = async (name, size) => {
     const postImgFiles = globSync('**/*.png', { absolute: true, cwd: postSrc });
     const iconOps = icons.map(icon => fmtIcon(icon.name, icon.size));
     const imgOps = imgFiles.map(file => fmtImage(file, imgDist));
-    const postImgOps = postImgFiles.map(file => {
-      const mtchImgDist = file.replace(imgMatch, '$1');
-      return fmtImage(file, mtchImgDist);
-    });
+    const postImgOps = postImgFiles.map(file => fmtImage(file));
     const ops = [...iconOps, ...imgOps, ...postImgOps];
 
     await Promise.all(ops);
