@@ -13,7 +13,7 @@
 {{ if or (eq (index $svg 0) "svg") (eq (index $gif 0) "gif") }}
   <div class="img-wrap">
     <img
-      src='{{  $img }}'
+      src='{{ $img }}'
       alt="{{ .PlainText }}"
       loading="lazy"
     />
@@ -21,10 +21,10 @@
 {{/*  render progressive images markup  */}}
 {{ else }}
   <picture class="img-wrap">
-    <source srcset='{{  $avif }}' type="image/avif" />
-    <source srcset='{{  $webp }}' type="image/webp" />
+    <source srcset='{{ $avif }}' type="image/avif" />
+    <source srcset='{{ $webp }}' type="image/webp" />
     <img
-      src='{{  $img }}'
+      src='{{ $img }}'
       alt="{{ .PlainText }}"
       loading="lazy"
     />
