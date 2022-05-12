@@ -1,14 +1,16 @@
 {{- with site.Params.homeInfoParams }}
 <article class="first-entry home-info">
-    <header class="entry-header">
-        <h1>
-            {{ .Title | markdownify }}
-        </h1>
-        {{ partial "img.html" (dict "src" "home.jpeg" "alt" "meadow" "width" "720" "height" "900") }}
-    </header>
-    <div class="entry-content">
-        <p>{{ .Content | markdownify }}</p>
-    </div>
+    <section class="home-entry-columns">
+        <header class="entry-header">
+            <h1>
+                {{ .Title | markdownify }}
+            </h1>
+            {{ partial "img.html" (dict "src" "home.jpeg" "alt" "meadow" "width" "512") }}
+        </header>
+        <div class="entry-content">
+            <p>{{ .Content | markdownify }}</p>
+        </div>
+    </section>
     <footer class="entry-footer">
         {{ partial "social_icons.html" site.Params.socialIcons }}
     </footer>

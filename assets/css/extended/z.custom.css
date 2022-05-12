@@ -70,6 +70,56 @@
     U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
     U+FEFF, U+FFFD;
 }
+main.main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: calc(var(--nav-width) + var(--gap) * 2);
+  width: 100%;
+}
+main.main .post-entry {
+  margin: 0 auto var(--gap);
+  max-width: calc(var(--main-width) + var(--gap) * 2);
+}
+main.main .home-info,
+section.home-entry-columns .entry-header {
+  min-height: 20rem;
+}
+main.main .home-info {
+  padding: 0 var(--gap);
+}
+section.home-entry-columns {
+  align-items: flex-start;
+  background-color: #eeedeb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 32rem;
+  width: 100%;
+}
+section.home-entry-columns .entry-content {
+  height: 100%;
+  margin: 0;
+  padding: 2.5rem;
+  width: 100%;
+}
+@media screen and (min-width: 850px) {
+  main.main .home-info,
+  section.home-entry-columns .entry-header {
+    max-height: 36.25rem;
+  }
+  section.home-entry-columns {
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+  }
+  section.home-entry-columns .entry-header,
+  section.home-entry-columns .entry-content {
+    max-width: 50%;
+  }
+}
 .logo a,
 .nav {
   font-weight: 900;
