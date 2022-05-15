@@ -1,0 +1,22 @@
+{{ $fontFamily := .Site.Params.font }}
+{{ range (readDir "/static/fonts/") }}
+  {{ if ne (findRE "-subset" .Name) nil }}
+    {{ if ne (findRE "woff2" .Name) nil }}
+      {{ $file := replaceRE "\\.woff2" "" .Name }}
+      {{ $var := replaceRE "\\s" "" (lower .Name) }}
+      {{ $style := cond (ne (findRE "Italic" .Name) nil) "italic" "normal" }}
+      {{ $weight := cond (ne (findRE "Black" .Name) nil) (cond (ne (findRE "Bold" .Name) nil) "700" "900") "400" }}
+      @font-face {
+        font-family: '{{ $fontFamily }}';
+        font-style: normal;
+        font-weight: {{ $weight }};
+        font-display: swap;
+        src: url(/fonts/{{ .Name }}) format('woff2'),
+          url(/fonts/{{ replaceRE "woff2" "woff" .Name }}) format('woff');
+      }
+    {{ end }}
+  {{ end }}
+{{ end }}
+* {
+  font-family: '{{ $fontFamily }}', serif;
+}

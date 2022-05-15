@@ -2,7 +2,13 @@
 <html lang="{{ site.Language }}" dir="{{ .Language.LanguageDirection | default "auto" }}">
 
 <head>
+    {{- partial "font-preloading.html" . }}
+    {{ $fonts := resources.Get "css/fonts.css" | resources.ExecuteAsTemplate "css/font-loading.css" . }}
+    {{ $fontsStyles := $fonts | postCSS }}
+    {{ $rawCSS := $fontsStyles.Content | safeCSS }}
+    <style>{{ $rawCSS }}</style>
     {{- partial "head.html" . }}
+    {{- partial "font-swap.html" . }}
 </head>
 
 <body class="

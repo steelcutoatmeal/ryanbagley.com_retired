@@ -1,6 +1,5 @@
 const cssnano = require('cssnano');
 const postcssPresetEnv = require('postcss-preset-env');
-const tailwind = require('tailwindcss');
 
 module.exports = () => ({
   plugins: [
@@ -28,6 +27,5 @@ module.exports = () => ({
         },
       ],
     }),
-    tailwind,
   ],
 });

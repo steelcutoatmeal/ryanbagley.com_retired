@@ -1,0 +1,39 @@
+{{ $fontFamily := .Site.Params.font }}
+<script>
+  /**
+   * Font loading via FontFace API to avoid FOUT.
+   * After US charset subset files load, load full Latin chartset files.
+   */
+  if ('fonts' in document) {
+  {{ range (readDir "/static/fonts/") }}
+    {{ if eq (findRE "-subset" .Name) nil }}
+      {{ if ne (findRE "woff2" .Name) nil }}
+        {{ $file := replaceRE "\\.woff2" "" .Name }}
+        {{ $var := replaceRE "\\s" "" (lower .Name) }}
+        {{ $style := cond (ne (findRE "Italic" .Name) nil) "italic" "normal" }}
+        {{ $weight := cond (ne (findRE "Black" .Name) nil) (cond (ne (findRE "Bold" .Name) nil) "700" "900") "400" }}
+        const {{ safeJS (replaceRE "-" "" $file) }} = new FontFace(
+          '{{ $fontFamily }}',
+          'url(/fonts/{{ .Name }}) format("woff2"), url(/fonts/{{ replaceRE "woff2" "woff" .Name }}) format("woff")',
+          { style: '{{ $style }}', weight: '{{ $weight }}' }
+        );
+      {{ end }}
+    {{ end }}
+  {{ end }}
+
+    Promise.all([
+      {{ range (readDir "/static/fonts/") }}
+        {{ if eq (findRE "-subset" .Name) nil }}
+          {{ if ne (findRE "woff2" .Name) nil }}
+            {{ $file := replaceRE "-" "" (replaceRE "\\.woff2" "" .Name) }}
+            {{ safeJS $file }}.load(),
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    ]).then(fonts => {
+      fonts.forEach(font => {
+        document.fonts.add(font);
+      });
+    });
+  }
+</script>

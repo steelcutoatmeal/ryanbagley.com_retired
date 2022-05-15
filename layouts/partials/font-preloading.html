@@ -1,0 +1,21 @@
+{{ range (readDir "/static/fonts/") }}
+  {{ if ne (findRE "-subset" .Name) nil }}
+    {{ if (strings.HasSuffix .Name "woff2") }}
+    <link
+      rel="preload"
+      href="/fonts/{{ .Name }}"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    {{ else }}
+    <link
+      rel="preload"
+      href="/fonts/{{ .Name }}"
+      as="font"
+      type="font/woff"
+      crossorigin="anonymous"
+    />
+  {{ end }}
+  {{ end }}
+{{ end }}

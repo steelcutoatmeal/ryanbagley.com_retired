@@ -1,5 +1,29 @@
 # Ryan Bagley's Blog
 
+## Custom Fonts
+Local font files are used to custom fonts. A combination of technics are leveraged to accomplish the optimal font loading strategy. But the first thing to keep in mind when using any font files it the naming script. So a few rules to keep in mind:
+1. All fonts require a `woff` and `woff2` variants.
+2. All files should have a normal and subsetted version (created with the help of [glyphhanger](https://github.com/zachleat/glyphhanger)). That is, one with only a subset of the charset need; the minimum for the site to load. Usually, that is US_ASCII.
+3. Naming should be as follows:
+  - `<NAME>-<WEIGHT/STYLE>.<TYPE>`, e.g.: `SourceSerifPro-Black.woff`
+  - `<NAME>-<WEIGHT/STYLE>-subset.<TYPE>`, e.g.: `SourceSerifPro-BlackItalic-subset.woff2`
+4. Files should be placed in the `./static/fonts` directory.
+5. Set the font name in the `config.yml` file under `params > font`.
+
+As long as you follow these rules, you can load any file you like.
+
+3 templates are utilized to accomplish this setup:
+- `layouts/partials/font-preloading.html`: `<link>` tags are used to preload subset files **before** CSS reads the files via `@font-face`.
+- `assets/css/fonts.css`: generates the `@font-face` rules and applies the font to the doc.
+- `layouts/partials/font-swap.html`: after the subset files are read, a custom script uses the `FontFace()` constructor to load the full font files.
+
+This flow ends up looking something like this:
+```mermaid
+graph TD
+    A[Preload Subsets] --> B[CSS displays custom font]
+    B --> C[FontFace API loads complete files]
+```
+
 ## Image Pipeline
 Images are processed with the help of [Node Sharp](https://sharp.pixelplumbing.com). There are two flows: **template** images and **markdown** images. All images start as a single **PNG** file, which is then used to generate resized variants.
 

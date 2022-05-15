@@ -18,6 +18,7 @@ minify:
     minifyOutput: false
 
 params:
+    font: 'Source Serif Pro'
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     title: Ryan Bagley
     description: "ExampleSite description"
