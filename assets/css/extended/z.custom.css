@@ -70,7 +70,7 @@
     U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
     U+FEFF, U+FFFD;
 }
-main.main {
+main.main[data-home='true'] {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -154,4 +154,7 @@ p,
 }
 .img-wrap {
   width: 100%;
+}
+article.post-single {
+  margin: auto var(--gap);
 }
