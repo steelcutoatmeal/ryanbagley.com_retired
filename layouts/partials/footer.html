@@ -132,7 +132,7 @@
 {{/*  Service Worker  */}}
 {{ if hugo.Environment | eq "production" }}
 {{ $swTemplate := resources.Get "service-worker.js" }}
-{{ $sw := $swTemplate | resources.ExecuteAsTemplate "sw.js" . | resources.Minify }}
+{{ $sw := $swTemplate | resources.ExecuteAsTemplate "sw.js" . | resources.Minify | resources.Fingerprint "md5" }}
     <script>
     if (navigator.serviceWorker) {
         navigator.serviceWorker.register("{{ $sw.Permalink }}", { scope: "/" });
