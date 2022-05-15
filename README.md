@@ -71,4 +71,9 @@ Both flows render the same output:
 This ensures the smallest image size is always loaded. On top of that, native lazy loading is utilized to only load images until they are in view.
 
 ### Generating Images
-The image script runs at build time via npm script. When running `npm run build`, the script runs before Hugo's build command does. If you only run `hugo`, it is possible you will get errors due to missing assets. So using the npm script is always recommended.
+The image script runs at build time via npm script. When running `npm run build:prod`, the script runs before Hugo's build command does. If you only run `hugo`, it is possible you will get errors due to missing assets. So using the npm script is always recommended.
+
+## Service Worker
+A service worker template is rendered on every build. This template auto-generates the app name, site url, and version number at compile time. However, a helper Node script is used to attach the list of assets to cache post-build. This is done because assets are fingerprinter at build time with a hash. However, the helper script runs via npm script with the `npm run build:prod` script.
+
+The worker caches all JS, CSS, Image, and Font assets. Once the site is loaded on a client, assets are cached and moving forward, every request for them is intercepted and local version is loaded instead.
