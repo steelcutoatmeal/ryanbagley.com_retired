@@ -1,18 +1,13 @@
 /* eslint-disable id-length */
-import { basename, dirname, extname, resolve } from 'path';
-import { fileURLToPath } from 'url';
+const { basename, dirname, extname, resolve } = require('path');
 
-import glob from 'glob';
-import sharp from 'sharp';
+const glob = require('glob');
+const sharp = require('sharp');
 
 // import synchronous glob
 const globSync = glob.sync;
-// resolve local directory
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
 // resolve assets directories
-const postSrc = resolve(__dirname, '..', 'content/posts');
-const mainSrc = resolve(__dirname, 'img');
+const postDist = resolve(__dirname, '..', 'content/posts');
 const iconDist = resolve(__dirname, '..', 'static/icons');
 const imgDist = resolve(__dirname, '..', 'assets/img');
 // image variants for conversion
@@ -78,7 +73,7 @@ const fmtImage = async src => {
  * @returns {Promise<void>}
  */
 const fmtIcon = async (name, size) => {
-  const input = resolve(mainSrc, 'favicon.png');
+  const input = resolve(iconDist, 'favicon.png');
 
   // image options
   const fileName = `${name}-${size}x${size}.png`;
@@ -102,10 +97,13 @@ const fmtIcon = async (name, size) => {
 
 (async () => {
   try {
-    const imgFiles = globSync('*.png', { absolute: true, cwd: mainSrc });
-    const postImgFiles = globSync('**/*.png', { absolute: true, cwd: postSrc });
+    const imgFiles = globSync('*.png', { absolute: true, cwd: imgDist });
+    const postImgFiles = globSync('**/*.png', {
+      absolute: true,
+      cwd: postDist,
+    });
     const iconOps = icons.map(icon => fmtIcon(icon.name, icon.size));
-    const imgOps = imgFiles.map(file => fmtImage(file, imgDist));
+    const imgOps = imgFiles.map(file => fmtImage(file));
     const postImgOps = postImgFiles.map(file => fmtImage(file));
     const ops = [...iconOps, ...imgOps, ...postImgOps];
 
