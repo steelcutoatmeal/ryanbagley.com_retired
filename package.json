@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "scripts": {
     "build": "hugo -e production --minify",
+    "build:prod": "npm run img && npm run build && npm run cache-assets",
+    "cache-assets": "node scripts/cache-assets.js",
     "clean": "rm -rf public",
     "clean:node": "rm -rf node_modules",
     "format": "prettier --write \"assets/**/*.{js,css,scss}\"",
-    "img": "esbuild \"scripts/images.js\"",
+    "img": "node scripts/images.js",
     "lint": "eslint --fix --no-error-on-unmatched-pattern \"assets/**/*.js\"",
-    "serve": "npm run build && serve public",
+    "serve": "npm run build:prod && serve public",
     "start": "hugo --disableFastRender --minify serve"
   },
   "repository": {

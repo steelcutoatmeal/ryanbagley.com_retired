@@ -128,3 +128,22 @@
     });
 </script>
 {{- end }}
+
+{{/*  Service Worker  */}}
+{{ if hugo.Environment | eq "production" }}
+{{ $swTemplate := resources.Get "service-worker.js" }}
+{{ $sw := $swTemplate | resources.ExecuteAsTemplate "sw.js" . | resources.Minify }}
+    <script>
+    if (navigator.serviceWorker) {
+        navigator.serviceWorker.register("{{ $sw.Permalink }}", { scope: "/" });
+        navigator.serviceWorker.ready.then(registration => {
+        console.log('Service Worker is ready', registration);
+        });
+        window.addEventListener("load", () => {
+        if (navigator.serviceWorker.controller) {
+            navigator.serviceWorker.controller.postMessage({ command: "trimCaches" });
+        }
+        });
+    }
+    </script>
+{{ end }}
