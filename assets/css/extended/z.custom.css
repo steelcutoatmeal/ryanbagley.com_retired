@@ -84,7 +84,10 @@ p,
   font-style: italic;
 }
 h1 {
-  font-size: 34px;
+  font-size: 28px;
+}
+.post-title {
+  font-size: 32px;
 }
 .img-wrap {
   width: 100%;
