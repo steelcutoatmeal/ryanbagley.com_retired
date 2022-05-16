@@ -83,6 +83,9 @@ p,
 .post-description {
   font-style: italic;
 }
+h1 {
+  font-size: 34px;
+}
 .img-wrap {
   width: 100%;
 }
