@@ -23,7 +23,7 @@
       {{ with .height }}height="{{ . }}"{{ end }}
       width="{{ .width }}"
       aria-hidden="{{ $isHidden }}"
-      loading={{ $islazy }}
+      loading={{ $isLazy }}
     />
   </div>
 {{/*  render progressive images markup  */}}
@@ -41,7 +41,7 @@
     {{ with .height }}height="{{ . }}"{{ end }}
     width="{{ .width }}"
     aria-hidden="{{ $isHidden }}"
-    loading={{ $islazy }}
+    loading={{ $isLazy }}
   />
 </picture>
 {{ end }}
