@@ -8,7 +8,7 @@
       {{ $weight := cond (ne (findRE "Black" .Name) nil) (cond (ne (findRE "Bold" .Name) nil) "700" "900") "400" }}
       @font-face {
         font-family: '{{ $fontFamily }}';
-        font-style: normal;
+        font-style: {{ $style }};
         font-weight: {{ $weight }};
         font-display: swap;
         src: url(/fonts/{{ .Name }}) format('woff2'),
