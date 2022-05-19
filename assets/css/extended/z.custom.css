@@ -4,9 +4,13 @@
   --entry: rgb(238 237 235);
   --secondary: rgb(30, 30, 30);
 }
-main.main {
+main.main,
+article.post-single {
   display: grid;
   grid-auto-rows: min-content;
+  margin: 0 auto;
+}
+main.main {
   grid-template-columns:
     minmax(2rem, 1fr) minmax(
       19.1875rem,
@@ -17,12 +21,23 @@ main.main {
   max-width: calc(var(--nav-width) + var(--gap) * 2);
   padding: var(--gap) 0;
 }
-main.main > * {
+main.main > *,
+article.post-single > * {
   grid-column: 2 / 3;
 }
 main.main .post-entry {
   margin: 0 auto var(--gap);
   max-width: calc(var(--main-width) + var(--gap) * 2);
+}
+article.post-single {
+  grid-column: 1 / 4;
+  grid-template-columns:
+    minmax(2rem, 1fr) minmax(19.1875rem, 45rem)
+    minmax(2rem, 1fr);
+  margin: 0 !important;
+}
+article.post-single > .entry-cover {
+  grid-column: 1 / 4;
 }
 main.main .home-info,
 section.home-entry-columns .entry-header picture {
@@ -105,6 +120,20 @@ article.post-single {
 }
 .post-content a, .toc a:hover {
   box-shadow: 0 0px;
+}
+/* Cover Image */
+.entry-cover picture {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-height: 40rem;
+  overflow: hidden;
+}
+.entry-cover picture img {
+  border-radius: 0;
+  object-fit: cover;
+  object-position: center center;
 }
 @media screen and (min-width: 920px) {
   main.main {
