@@ -1,0 +1,40 @@
+{{/*  find image format  */}}
+{{ $svg := .src | findRE "svg" }}
+{{ $gif := .src | findRE "gif" }}
+{{ $type := .src | replaceRE "(.*).(png|jpg|jpeg)" "$2" }}
+{{ $imgMain := .src | replaceRE "(.*).(png|jpg|jpeg)" "$1" }}
+
+{{/*  generate image variant paths  */}}
+{{ $avif := print $imgMain ".avif" }}
+{{ $webp := print $imgMain ".webp" }}
+{{ $img := print $imgMain "." $type }}
+
+{{/*  conditional params  */}}
+{{ $isLazy := cond (eq .loading nil) "lazy" .loading }}
+{{ $width := cond (eq .width nil) "720" .width }}
+
+{{/*  render SVG/GIF image markup  */}}
+{{ if or (eq (index $svg 0) "svg") (eq (index $gif 0) "gif") }}
+  <div class="img-wrap">
+    <img
+      src='{{ $img }}'
+      alt="{{ .alt }}"
+      {{ with .height }}height="{{ . }}"{{ end }}
+      width="{{ $width }}"
+      loading="{{ $isLazy }}"
+    />
+  </div>
+{{/*  render progressive images markup  */}}
+{{ else }}
+  <picture class="img-wrap">
+    <source srcset='{{ $avif }}' type="image/avif" />
+    <source srcset='{{ $webp }}' type="image/webp" />
+    <img
+      src='{{ $img }}'
+      alt="{{ .alt }}"
+      {{ with .height }}height="{{ . }}"{{ end }}
+      width="{{ $width }}"
+      loading="{{ $isLazy }}"
+    />
+  </picture>
+{{ end }}

@@ -1,0 +1,15 @@
+{{- with .cxt}} {{/* Apply proper context from dict */}}
+    {{- if (and .Params.cover.image (not $.isHidden)) }}
+        {{- $alt := (.Params.cover.alt | default .Params.cover.caption | plainify) }}
+        <figure class="entry-cover">
+            {{- $addLink := (and site.Params.cover.linkFullImages (not $.IsHome)) }}
+            {{- if $addLink }}<a href="{{ (path.Join .RelPermalink .Params.cover.image) | absURL }}" target="_blank" rel="noopener noreferrer">{{ end -}}
+                {{ partial "post-img.html" (dict "src" .Params.cover.image "alt" $alt "width" "512" "loading" "eager") }}
+            {{- if $addLink }}</a>{{ end -}}
+            {{/*  Display Caption  */}}
+            {{- if not $.IsHome }}
+                {{ with .Params.cover.caption }}<figcaption>{{ . | markdownify }}</figcaption>{{- end }}
+            {{- end }}
+        </figure>
+    {{- end }}{{/* End image */}}
+{{- end -}}{{/* End context */ -}}

@@ -97,6 +97,9 @@ h1 {
 .img-wrap {
   width: 100%;
 }
+.post-content picture img {
+  width: 100%;
+}
 article.post-single {
   margin: auto var(--gap);
 }
