@@ -23,16 +23,15 @@ ShowBreadCrumbs: false
 ShowPostNavLinks: false
 ShowRssButtonInSectionTermList: true
 cover:
-    image: "images/welcome.jpg" # image path/url
+    image: "" # image path/url
     alt: "<alt text>" # alt text
     caption: "<text>" # display caption under cover
     relative: false # when using page bundles set this to true
     hidden: false # only hide on current single page
 ---
+After the dirty kerfuffle earlier in the summer I decided to pursue some luxury camping conditions. Obviously, the great motivation here was to reduce the pounds of dirt my dogs could absorb into their fur. Another was to solicit my wife into the great outdoors with an easy and enjoyable camping experience. I always feel better blundering around and making obvious mistakes when I have my significant other along with me to cushion the blow to my ego when things inevitably go wrong. If I could just find the right camping location I might just might protect the dogs from themselves and provide my wife with another positive outdoor experience.
 
 ![meadow](images/broadwater-large.jpg)
-
-After the dirty kerfuffle earlier in the summer I decided to pursue some luxury camping conditions. Obviously, the great motivation here was to reduce the pounds of dirt my dogs could absorb into their fur. Another was to solicit my wife into the great outdoors with an easy and enjoyable camping experience. I always feel better blundering around and making obvious mistakes when I have my significant other along with me to cushion the blow to my ego when things inevitably go wrong. If I could just find the right camping location I might just might protect the dogs from themselves and provide my wife with another positive outdoor experience.
 
 Since I've been subject to unrealistic REI Co-Op advertisements my entire life I knew there were at least some locations in North America worthy of being in a magazine. Maybe there would even be a few in adventure ready Utah. You might have your own version of this location in your head but I will tell you my own. Imagine a grassy campground next to a modest river with majestic pine trees in the spots that don't block your view. The view is a grand valley glowing in the twilight evening light. All the cozy people around the campfire appear to be in a perfect temperature equilibrium and are neither pestered by bugs or acute smoke inhalation. I know it is all a lie. But maybe I can achieve just one item out of this mental image: grass. Yes, the plant I spend my spring, summer, and fall butchering could be my savior when out in nature. This led me to another high altitude location in the High Uintas Wilderness at the softly named Broadwater Meadow.
 

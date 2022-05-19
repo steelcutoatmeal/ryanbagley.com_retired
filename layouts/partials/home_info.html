@@ -2,12 +2,13 @@
 <article class="first-entry home-info">
     <section class="home-entry-columns">
         <header class="entry-header">
-            <h1>
-                {{ .Title | markdownify }}
-            </h1>
             {{ partial "img.html" (dict "src" "home.jpeg" "alt" "meadow" "width" "512" "loading" "eager") }}
         </header>
         <div class="entry-content">
+            <h1>
+            {{ .Title | markdownify }}
+            </h1>
+            <br>
             <p>{{ .Content | markdownify }}</p>
         </div>
     </section>
