@@ -17,11 +17,14 @@ main.main .post-entry {
   max-width: calc(var(--main-width) + var(--gap) * 2);
 }
 main.main .home-info,
-section.home-entry-columns .entry-header {
+section.home-entry-columns .entry-header picture {
   min-height: 20rem;
 }
 main.main .home-info {
   padding: 0 var(--gap);
+}
+section.home-entry-columns .entry-header {
+  height: 100%;
 }
 section.home-entry-columns {
   align-items: flex-start;
@@ -38,11 +41,7 @@ section.home-entry-columns .entry-content {
   padding: 2.5rem;
   width: 100%;
 }
-@media screen and (min-width: 850px) {
-  main.main .home-info,
-  section.home-entry-columns .entry-header {
-    max-height: 36.25rem;
-  }
+@media screen and (min-width: 920px) {
   section.home-entry-columns {
     align-items: center;
     flex-direction: row;
