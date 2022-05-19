@@ -143,7 +143,7 @@ section.home-entry-columns .entry-header picture img,
 .entry-cover picture img {
   border-radius: 0;
 }
-@media screen and (min-width: 920px) {
+@media screen and (min-width: 850px) {
   main.main {
     padding: var(--gap);
   }
