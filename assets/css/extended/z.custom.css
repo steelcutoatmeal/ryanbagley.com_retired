@@ -4,13 +4,21 @@
   --entry: rgb(238 237 235);
   --secondary: rgb(30, 30, 30);
 }
-main.main[data-home='true'] {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+main.main {
+  display: grid;
+  grid-auto-rows: min-content;
+  grid-template-columns:
+    minmax(2rem, 1fr) minmax(
+      19.1875rem,
+      calc(var(--main-width) + var(--gap) * 2)
+    )
+    minmax(2rem, 1fr);
+  margin: 0 auto;
   max-width: calc(var(--nav-width) + var(--gap) * 2);
-  width: 100%;
+  padding: var(--gap) 0;
+}
+main.main > * {
+  grid-column: 2 / 3;
 }
 main.main .post-entry {
   margin: 0 auto var(--gap);
@@ -20,11 +28,18 @@ main.main .home-info,
 section.home-entry-columns .entry-header picture {
   min-height: 20rem;
 }
-main.main .home-info {
-  padding: 0 var(--gap);
+section.home-entry-columns .entry-header picture img {
+  width: 100%;
 }
-section.home-entry-columns .entry-header {
-  height: 100%;
+main.main .home-info {
+  justify-self: center;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+section.home-entry-columns .entry-header,
+section.home-entry-columns .entry-content {
+  height: auto !important;
 }
 section.home-entry-columns {
   align-items: flex-start;
@@ -32,7 +47,7 @@ section.home-entry-columns {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 32rem;
+  /* max-width: 32rem; */
   width: 100%;
 }
 section.home-entry-columns .entry-content {
@@ -40,18 +55,6 @@ section.home-entry-columns .entry-content {
   margin: 0;
   padding: 2.5rem;
   width: 100%;
-}
-@media screen and (min-width: 920px) {
-  section.home-entry-columns {
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-between;
-    max-width: 100%;
-  }
-  section.home-entry-columns .entry-header,
-  section.home-entry-columns .entry-content {
-    max-width: 50%;
-  }
 }
 a {
   color: #ed0c14;
@@ -99,4 +102,23 @@ article.post-single {
 }
 .post-content a, .toc a:hover {
   box-shadow: 0 0px;
+}
+@media screen and (min-width: 920px) {
+  main.main {
+    padding: var(--gap);
+  }
+  main.main .home-info {
+    grid-column: 1 / 4;
+  }
+  section.home-entry-columns {
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+  }
+  section.home-entry-columns .entry-header,
+  section.home-entry-columns .entry-content {
+    height: 100% !important;
+    max-width: 50%;
+  }
 }
