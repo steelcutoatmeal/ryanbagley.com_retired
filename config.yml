@@ -29,7 +29,7 @@ params:
     DateFormat: "January 2, 2006"
     defaultTheme: light
     disableThemeToggle: true
-
+    ShowFullTextinRSS: true
     ShowReadingTime: true
     ShowShareButtons: false
     ShowPostNavLinks: false
@@ -90,6 +90,8 @@ If you enjoy thoughtful articles 📚 and some neat pictures from a guy running 
           url: "https://www.strava.com/athletes/ryanbagley"
         - name: steam
           url: "https://steamcommunity.com/profiles/76561197965221693"
+        - name: rss
+          url: "https://ryanbagley.com/index.xml"
 
     analytics:
         google:
@@ -126,3 +128,9 @@ menu:
           name: About
           url: /about/
           weight: 20
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
