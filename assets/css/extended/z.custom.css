@@ -85,26 +85,45 @@ a {
 #menu a:hover {
   color: #ed0c14;
 }
+.social-icons {
+  text-align: center;
+  padding: 25px 0;
+}
+.social-icons a svg {
+  color: black;
+}
 .header {
   padding: 20px;
 }
+.post-header {
+  margin: unset;
+}
 #menu a {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 900;
   color: black;
 }
 #menu .active {
   font-weight: 900;
 }
-p,
-.post-description {
+@media screen and (min-width:601px) {
+  p,
+  .post-description {
   font-size: 20px;
+}
+}
+@media screen and (max-width:600px) {
+  p,
+  .post-description {
+  font-size: 16px;
+}
 }
 .post-description {
   font-style: italic;
 }
-h1 {
-  font-size: 28px;
+h1,
+.page-header h1 {
+  font-size: 32px;
 }
 .post-title {
   font-size: 32px;

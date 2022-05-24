@@ -3,9 +3,24 @@ title: "About"
 layout: "about"
 url: "/about/"
 summary: about
+disableHLJS: true # to disable highlightjs
+disableShare: false
+disableHLJS: false
+hideSummary: false
+searchHidden: false
 ShowReadingTime: false
+ShowBreadCrumbs: false
+ShowPostNavLinks: false
+ShowRssButtonInSectionTermList: true
+cover:
+    image: "" # image path/url
+    alt: "" # alt text
+    caption: "" # display caption under cover
+    relative: false # when using page bundles set this to true
+    hidden: false # only hide on current single page
 ---
-Hello and very please to have you here. I'm a network engineer and outdoor adventurer living in the American West. Namely, within the suburbs of Salt Lake City, Utah. I grew up in a few geographical areas of the United States but was fortunate enough to have parents that valued being outdoors and prioritized camping trips each year. This habit unfortunately waned as the young family aged and got pulled in a variety of directions with school, social life, and the evolution of priorities. The impressions about being in nature certainly stayed with me. As an adult now I thought it best to rediscover something dear to my upbringing. The experiences have been surprisingly positive so far I look forward to the many more I have planned.
+
+Hello and very pleased to have you here. I'm a network engineer and outdoor adventurer living in the American West. Namely, within the suburbs of Salt Lake City, Utah. I grew up in a few geographical areas of the United States but was fortunate enough to have parents that valued being outdoors and prioritized camping trips each year. This habit unfortunately waned as the young family aged and got pulled in a variety of directions with school, social life, and the evolution of priorities. The impressions about being in nature certainly stayed with me. As an adult now I thought it best to rediscover something dear to my upbringing. The experiences have been surprisingly positive so far I look forward to the many more I have planned.
 
 Much of the content I draft on this site is driven by my literary and visual appreciation of the American West. It is my hope that by sharing these experiences that I can fortify in others a respect for this unique geographic region. In a matter of hours you can travel from snow-covered mountain peaks to the desert with sandstone canyons hundreds of feet deep etched with petroglyphs hundreds of years old. My goal is to have the bulk my content sourced from trip reports within the region. Since this is not realistic with a full-time job, other content will be present. I will cover more macro-oriented topics such as land usage, conservation, public access, and some fundamental reasons why many individuals in this world chose to forego the comforts of their homes to experience the beauty of nature. Further tertiary topics frequently make it into my writing when weather or my personal schedule prohibit out in the field reports. Subjects can vary and might include gear reviews, interviews with prominent members of the community, and even sociological discussions about the budding overland industry exploiting social media creators.
 
