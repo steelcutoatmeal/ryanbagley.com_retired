@@ -52,6 +52,12 @@ main.main .home-info {
   padding: 0;
   width: 100%;
 }
+main.main .home-info .entry-content {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 section.home-entry-columns .entry-header,
 section.home-entry-columns .entry-content {
   height: auto !important;
@@ -106,17 +112,17 @@ a {
 #menu .active {
   font-weight: 900;
 }
-@media screen and (min-width:601px) {
+@media screen and (min-width: 601px) {
   p,
   .post-description {
-  font-size: 20px;
+    font-size: 20px;
+  }
 }
-}
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
   p,
   .post-description {
-  font-size: 16px;
-}
+    font-size: 16px;
+  }
 }
 .post-description {
   font-style: italic;
