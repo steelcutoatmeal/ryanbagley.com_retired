@@ -114,13 +114,15 @@ a {
 }
 @media screen and (min-width: 601px) {
   p,
-  .post-description {
+  .post-description,
+  li {
     font-size: 20px;
   }
 }
 @media screen and (max-width: 600px) {
   p,
-  .post-description {
+  .post-description,
+  li {
     font-size: 16px;
   }
 }
@@ -146,6 +148,9 @@ article.post-single {
 .post-content a,
 .toc a:hover {
   box-shadow: 0 0px;
+}
+.toc {
+  margin: unset;
 }
 section.home-entry-columns .entry-header picture,
 .entry-cover picture {

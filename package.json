@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/steelcutoatmeal/test-site#readme",
   "dependencies": {
-    "glob": "^8.0.1",
+    "glob": "^8.0.3",
     "replace-in-file": "^6.3.2",
     "sharp": "^0.30.4"
   },
