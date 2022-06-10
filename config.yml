@@ -80,18 +80,20 @@ params:
 If you enjoy thoughtful articles 📚 and some neat pictures from a guy running around in the wilderness 🏕️ then check out the archive or subscribe to my [RSS](https://ryanbagley.com/index.xml) feed."
 
     socialIcons:
-        - name: instagram
+        - name: "instagram"
           url: "https://www.instagram.com/tcp.rst/"
-        - name: telegram
+        - name: "telegram"
           url: "https://t.me/ryanbagley"
-        - name: email
+        - name: "email"
           url: "mailto:ryan@bagley.io"
-        - name: strava
+        - name: "strava"
           url: "https://www.strava.com/athletes/ryanbagley"
-        - name: steam
+        - name: "steam"
           url: "https://steamcommunity.com/profiles/76561197965221693"
-        - name: rss
+        - name: "rss"
           url: "https://ryanbagley.com/index.xml"
+        - name: "github"
+          url: "https://github.com/steelcutoatmeal/ryanbagley.com"
 
     analytics:
         google:
@@ -128,6 +130,10 @@ menu:
           name: About
           url: /about/
           weight: 20
+        - identifier: search
+          name: Search
+          url: /search/
+          weight: 30
 
 outputs:
     home:
