@@ -1,0 +1,61 @@
+---
+title: "Black Dragon Canyon"
+date: 2022-02-01T11:30:03+00:00
+# weight: 1
+# aliases: ["/first"]
+# tags: ["first"]
+# author: "Me"
+# author: ["Me", "You"] # multiple authors
+showToc: false
+TocOpen: false
+draft: false
+hidemeta: false
+comments: false
+description: "Where graffiti ages like a fine wine."
+canonicalURL: "https://canonical.url/to/page"
+disableHLJS: true # to disable highlightjs
+disableShare: false
+disableHLJS: false
+hideSummary: false
+searchHidden: false
+ShowReadingTime: true
+ShowBreadCrumbs: false
+ShowPostNavLinks: false
+ShowRssButtonInSectionTermList: true
+cover:
+    image: "" # image path/url
+    alt: "" # alt text
+    caption: "" # display caption under cover
+    relative: false # when using page bundles set this to true
+    hidden: false # only hide on current single page
+---
+
+![I-70 Highway](images/black-dragon-1.jpg)
+
+Some fair weather in early February convinced me to finally give some new camping equipment a test run. All of it had been lying around since the previous Black Friday. The 0 F rated sleeping bag kept encouraging me to brave the winter weather. You'll be warm in my fluffy embrace it kept saying to me. So I finally did it. But not to the true test of winter in norther Utah like a true survivalist. Instead, I wandered around on Google Maps around central Utah where the weather was a bit more forgiving. The images of Black Dragon Canyon impressed me most and the steep walls convinced me it was my destination for that weekend.
+
+![Canyon Walls](images/black-dragon-5.jpg)
+
+As you will see from the images, the location get its name from the impressive walls that widely curve their way through seemingly solid sandstone. The walls become even more reptilian when you see the long sinewy black stains draping down the sides of the canyon. Located in the southern part of the San Rafael Swell, Black Dragon Canyon is an impressive site that is just minutes off I-70. Since there is no real exit for the canyon you will have to watch for the sign and gate. It is on the right hand sign of the westbound side of the highway. There is a tunnel underneath but I can't be certain if it would give access from exiting on the eastbound side. If you come up to the gate and it looks closed it might actually just have the chain wrapped around the post to keep cattle from the highway. Just make sure to close it back up after going through. From there it is just a few minutes up a dirt road to get into the deepest parts of the canyon.
+
+![Rough Terrain](images/black-dragon-6.jpg)
+
+Depending on your level of adventure you can also approach the canyon from the west for a semi-challenging off-road day trip. This starts from the west by exiting to Lawrence Road, which transitions to Buckhorn Draw Road, Jerry's Flat Loop, and finally to Black Dragon Road. Much of the first third is rather boring dirt roads but the last part of the road gets quite challenging. There are a few spots some extra care for tire placement and approach, even with my slightly lifted 4Runner. This would be a walk in the park for a vehicle with rock sliders and a lift over 2-3 inches. Much of the challenge of this last part was due to natural elements of the terrain. There were parts directly on sandstone that had warn away in a step-like fashion that created sizable drop offs as you went down the trail. Other tough spots were in the dry riverbeds you crisscross. Rainstorms and flooding in the desert can shuffle the sand and rocks into a very challenging situation.
+
+![Bird's Eye View](images/black-dragon-4.jpg)
+
+If you plan on making a longer trip out of visiting Black Dragon Canyon be aware that camping is prohibited in some sections of the canyon. There are signs designating when this rule takes effect and my trail application (GaiaGPS) had some map notes about the restriction. I didn't even make it that far since I got a late start from my house and ended up sleeping about halfway to the canyon.
+
+The weather wasn't that bad for January as I set out for my trip. I knew the temperature dropped significantly at night but the warmth of the daytime was another element of subconsciously misleading myself. As I left the highway and onto the dirt road I actually opened my windows to cool off. A bit of this was due the exhilaration of tackling some parts of the trail in completely darkness. I didn't have any fancy overlanding lights and so took it slow along cliffs and around bends. Such care builds up a metabolic exchange so I was pretty relieved to get out of the car at the site I had picked to camp. However, after leaving the warmth of a running vehicle combined a with progressively more vicious wind I quickly became cold. But I had prepared for this! Whipping out my fancy new fluffy 0 F sleeping bag at first was the greatest feeling. The impending cold of the night must have been scared. I was going to sleep like the king of warm fluffiness despite some harrowing desert canyon winds outside. More realistically, the cold night simply kept at its uncaring and relentless job. And it certainly did.
+
+![Approaching the Canyon](images/black-dragon-2.jpg)
+
+Over the course of the night I woke up about every hour as I got increasingly cold. I started my night with a simple outfit of sweat pants and a shirt. There are some orthodox people out there that swear you shouldn't complicate your sleeping situation with extra layers and that even sometimes they work counterintuitively to staying warm. This rapidly became fake news as I donned more and more layers to reach a warmer temperature equilibrium. Over the course of several hours I eventually ended up with some thick wool socks, sweatpants, fleece jacket, and a beanie. The wardrobe allowed me to get warm enough to sleep for a solid two hours. I got through the rest of the night until the coldest part at around 5AM, which got into the low teens, Fahrenheit. While I could feel the lines of stitching in the sleeping back from the cold or warmth that part wasn't what woke me up. It was my freezing eyeballs and nose. The only piece of clothing I don't own is a jacket for my eyeballs and I'm not sure I have seen such an item at any outdoor equipment store. I realize that a full ski getup could accomplish the same thing but things like this don't enter your mind as you are packing when you are an amateur winter camper.
+
+Thankfully the sun brought warmer temperatures in the morning. Continuing onward on the road eventually brought me to the beginnings of Black Dragon Canyon. Coming from the longer west route is almost better since the terrain slowly changes and the grand culmination of the geography ends with Black Dragon Canyon itself. The alternative is leaving I-70 and immediately entering the canyon, which is impressive, but the drawn out story of the terrain is a bit halted.
+
+![Bird's Eye View](images/black-dragon-3.jpg)
+
+On top of the impressive geographic features of the canyon there are some stunning petroglyphs on the walls. Unfortunately, some newer graffiti has been added as well. I can understand the irony that older graffiti is somehow more sacred and anthropologically significant while "*Trevor 2006*" is met with derision. Older but still modern graffiti is also rather fascinating. I find early 20th century markings as equally fascinating as the native ones from hundreds of years prior. It is rather fascinating psychology to see what the benchmark or cutoff threshold is for people. Some might think nothing less than a few hundred years old to be worth their time. I think anything older than 75-100 years is rather fascinating. But definitely nothing within the past 20. If federal officials were to leave Trevor's carving intact until around 2081 then I might consider coming back.
+
+![Graffiti](images/black-dragon-7.jpg)
