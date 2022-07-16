@@ -11,7 +11,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-description: "An experiment in the mud carrying capacity of a unladen canine."
+description: "An experiment in the mud carrying capacity of an unladen canine."
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false

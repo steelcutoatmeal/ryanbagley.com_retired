@@ -2,7 +2,15 @@
   --theme: #f6f4f2;
   --code-bg: #f6f4f2;
   --entry: rgb(238 237 235);
-  --secondary: rgb(30, 30, 30);
+  --primary: rgb(0, 0, 0);
+  --secondary: rgb(0, 0, 0);
+  --content: rgb(0, 0, 0);
+}
+hr {
+  margin-bottom: 15px;
+  height: 1px;
+  background: var(--content);
+  border: 0;
 }
 main.main,
 article.post-single {

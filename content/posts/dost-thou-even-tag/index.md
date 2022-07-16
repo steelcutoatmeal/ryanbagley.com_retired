@@ -1,0 +1,77 @@
+---
+title: "Dost Thou Even Tag?"
+date: 2022-07-16T11:30:03+00:00
+# weight: 1
+# aliases: ["/first"]
+# tags: ["first"]
+# author: "Me"
+# author: ["Me", "You"] # multiple authors
+showToc: false
+TocOpen: false
+draft: false
+hidemeta: false
+comments: false
+description: "You should probably stop tagging companies in your social media posts"
+canonicalURL: "https://canonical.url/to/page"
+disableHLJS: true # to disable highlightjs
+disableShare: false
+disableHLJS: false
+hideSummary: false
+searchHidden: false
+ShowReadingTime: true
+ShowBreadCrumbs: false
+ShowPostNavLinks: false
+ShowRssButtonInSectionTermList: true
+cover:
+    image: "" # image path/url
+    alt: "" # alt text
+    caption: "" # display caption under cover
+    relative: false # when using page bundles set this to true
+    hidden: false # only hide on current single page
+---
+The Instagram overlanding (off-roading) community was scolded in late 2021. I've been thinking about it since it happened. It caused quite a hullabaloo at the time and there was a brief period of drama. The source was what some saw as a chronic style of behavior in perpetuating a cycle of advertising self-exploitation. The practices of prominent community accounts were called out directly as setting bad examples that trickled down to less known members trying to make a name for themselves. For a community usually oriented around beautiful outdoor pictures and aggressively equipped vehicles, it was an unusual flare up of drama. However, it was well a deserved gut check for the blossoming overlanding community. This brand new hobby has grown exponentially over the past few years. The ask was simple. In order to fix the problem we simply had to adhere to a simple request:
+
+> Stop tagging brands (especially overland brands) on your posts.
+>
+> —ryans4runner[^1]
+
+This call to action was made by an account with a relatively small amount of followers but this is a bit misleading. It is actually just a hobby account for the professional photograph Ryan Resatka. But who is this person and why should we care about what he has to say?  While some members of the overlanding community start out with a small amount of followers and work to gain footing in the community he actually did the reverse. His primary Instagram account is popular[^2] in a general sense. But even more so when compared to the scope of overlanding numbers where average popular accounts hover in the tens of thousands. It would be fair to say that Mr. Resatka is a professional Instagram user and thereafter branched out with a secondary account into the overlanding sphere. We can safely assume he understands the financial exchange aspect of creative work, dealing with commercial organizations that consume such work, and sophisticated social media management.
+
+In order to understand Mr. Resatka's request, it would be helpful to draw out the style of posts among several popular Instagram accounts in the overlanding community. Picture a rugged sport utility vehicle traversing a pristine landscape. The vehicle is aggressively geared and visually boasts that any terrain could be easily conquered. It could be the digital incarnation of a perfect vehicle configuration that would provide the most memorable outdoor trip of your life. Tens of thousands of dollars in extra modifications ranging from tires, suspension, lights, steel fabricated bumpers, in-vehicle cabinetry, communication antennas, multiple electronic screens filling the driver's seat like a fighter jet, and an incredible variety of others you might not even know exist yet (but that you'll want once you see).
+
+![Example Instagram post with tagging](images/fearless-4r.jpg)
+
+Consider a person brand new to the hobby of overlanding encountering this epic post from a prominent community member with ten of thousands of followers[^3]. When you pick up a new hobby the variety of choices are overwhelming. Which proven products are the best suited to accomplish what you want to do? Seeking guidance, new joiners frequently look to these popular social media accounts within the hobby to inspire or guide them. This in turn incentivizes companies to sponsor those popular accounts in order to gain the best advertising.
+
+Instagram has made this coupling between content and product even easier. As you view this post, you tap it with your finger and a cloud of product tags show up. Since configurations can involve a large number of items this cloud of tags can completely block out the vehicle itself. This comically ironic to me. Each tag links to a vendor more than willing to sell you this newest greatest most capable modification that will assuredly make your car camping experience all the better. All these factors slammed into the same image creates the perfect medium for a company to allure new or returning customers. This tagging relationship between content creator and product advertisement is par for the course among all social media platforms. Anyone who has been alive in the past decade has been exposed to this situation within social media or with traditional advertising from all years prior. Companies pay the creator of advertising content and people buy the product.
+
+Mr. Resatka's isn't calling for an end to this relationship. He is calling for people to come back to it. He claims the problem is that a large number of people in the Instagram overland community simply use product tagging purely for exposure and completely ignore the other half of the exchange. This other half is some sort of financial exchange, which is probably front and center to Mr. Resatka since it sustains his annual income. Everyone in the overlanding community has sold themselves short by only expecting exposure and nothing more. Companies prey on this universal desire. Why would a company pay a photographer or other creative artist when a simple call to action from their social media account could garner hundreds of fan submitted content for the bankrupting price of $0? Sure, an amount of that content could be unusable on a quality level. However, consider the up and coming ambitious photographer who sees an easy pipeline to have their content widely published. It only takes a few hundred of such individuals to fully sustain a company's social media presence on a year round basis.
+
+I will be fair in acknowledging that this strained relationship is not isolated to the outdoor or overlanding community. Many S&P500 companies drive community hashtag campaigns to drive up excitement for their product or service. The easiest example I can think of is in the tourism sector and specifically with airline companies. Many plaster their terminals or boarding gates with giant blown up images of exotic and often tropical locations. You can see the photographer's Instagram username on the bottom of these. Visually ingesting the image(s) gives your brain two distinct expectations. The first is primarily about the image giving you desire to be there since it is so beautiful that leads to paying for the service or product to physically travel there. The second is a hopeful lure that hints if your image is good enough it can also be blazoned on the wall of an international airport boarding gate. Thousands of people will walk by *your* image with *your* name and you will become incredibly popular for that sunrise picture you snapped in Kauai.
+
+This relationship is also problematic because it ignores the same historical exchange between parties that was outlined earlier. Sure, the airline company might pay out a small few hundred dollar fee to these individuals that most consider adequate. However, consider the millions of dollars spent on an advertisement campaign on a global level. That picture you took in Kauai could be used across social media campaigns, billboards, advertisement posters, websites, company blog posts, commercials, flyers, and whatever other advertising mediums I left out. The small fee you were awarded now seems rather inadequate based on how much this company has spread your image around. You might see your compensation alternatively through the lens of wide international exposure for your social media presence. From this perspective it would be wise to somehow quantify your dollar-to-new-follower ratio that you find acceptable. If you were to get an extra 500-2,000 followers from your picture making it around the world would you find that an acceptable reward?
+
+![gun.rnr](images/gun-rnr.jpg)
+
+The nascent overlanding industry depends on people finding this an acceptable reward. I have seen the behavior normalized with social media campaigns that ask all to use tag #xyz in order to be featured in their social media feed. With tens of thousands of followers this is enticing to many people. Not only does this fast track submissions directly to the company it also sidesteps the entire process of negotiating any sort of fair reward exchange between the submitter and the company. In absolute legal terms, this behavior is illegal, as the companies are relying on the social media tag #xyz in order to determine copyright licensing and redistribution. Consider a world famous artist publishing their work but include an extra #xyz tag on their post. Would that give a commercial business the copyright permission to redistribute that artist's piece of work as they saw fit? Absolutely not, but such behavior is now considered normal by many overlanding social media campaigns.
+
+You might think differently about the value of social media exposure when you see the reimbursement tiers companies usually pay out. A common amount to license your image for usage on a company's social media account or website can pay $500 annually. Or, for for digital ads it would be around $5,000 per year. It gets even wilder for full universal usage rights that can run past $20,000 to $30,000[^4] annually. These amounts are just for still photographs. Videos can fetch approximately 1.6 to 2 times as much. All of this is limited to a 12 month basis. Giving your creative license away for something in perpetuity could demand a much more significant jump in reward. Based on these amounts do you know where you would switch from accepting exposure to an actual financial reward? Starting this scenario at the low end, do you believe 500 new followers will increase your *personal brand* value by $1 each? If we take this example further would you rather have 2,000 new followers or $5,000? The popularity long game might still be some people's choice but I must ask the question of when they plan on beginning the monetization of their social media presence? If it is at some distance point in the future where you'll have hundreds of thousands of followers you might not actually be able to make money at that point in time. Since in the process of getting that far you would have effectively ruined any sort of financial exchange model by offering your services for basically no reimbursement. It is simply pragmatic to expect a financial reward early in your planned social media career.
+
+To wrap up this section we can move on to the last and largest category of people in this dynamic: those who have no intention of earning money from social media tagging or licensing their images. I find myself within this category and I can see the perspective of some who are dismissive about the need to censor their social media posts. Since we are not part of the financial exchange process it doesn't really matter if we interrupt it by posting our casual weekend forays into the wilderness. We are here just to share fun times and talk about what we enjoy among other like minded individuals. There is only a slight adjustment we need to do in this situation to help out those who choose to be in the financial exchange process. We can stop tagging overlanding companies in our posts and instead use community tags to build our hobby up on social media. As an extra benefit, this helps us avoid getting exploited by the same companies we used to espouse.
+
+I would also claim there is an appropriate time and place to tag companies in posts. One example might be a post that is directly covering a product the company makes. It makes sense in this situation since the context of your post is directly related to that company. But when you habitually add a company's tag to every post for the purpose of wider exposure it becomes more problematic. Another example would be to promote a very small company with a great product into a wider audience. There are a few examples of this situation and it brings me joy that the capabilities of modern technology provide many with a platform to bring their ideas to market. The extended fuse box cover from 4runner.tx[^5] and the flush OEM-like dash mount from labopsgear[^6] come to mind as pristine examples of community funded products that filled a niche product need in the hobby.
+
+Some of these companies start out as a guy out in their garage tinkering with whatever and genuinely need the support of others to get things rolling. This sentiment kind of expires at a certain point but I don't really know when that threshold would be met. We aren't privy to any financial books so it would be hard to see when that supposed community support perspective should be withdrawn. The evolution of companies like this is an inherent problem to the overlanding community. Many products are new to market over the past decade and depend on community advertisement to launch. But it seems that they remain in that behavior arc even when pushing millions of dollars of revenue.
+
+## TL;DR
+
+1. Do not let companies use your content without fair compensation.
+2. Use community hashtags that are not company driven.
+3. Only promote very small companies.
+
+[^1]: https://www.instagram.com/ryans4runner/
+[^2]: [About 580,000 as of 2022](https://www.instagram.com/ryanresatka/).
+[^3]: This directly correlates to perceived authority, unfortunately. What type of social media account are you going to trust more, someone with ten of thousands of followers or another with 46?
+[^4]: These amounts are based on public comments made by Mr. Resatka. Alternative sources on pricing information might include software application fotoQuote, however, Mr. Resatka claimed that such amounts should be doubled to reach fair pricing levels.
+[^5]: [labopsgear](https://www.instagram.com/labopsgear/)
+[^6]: [4runner.tx](https://www.instagram.com/4runner.tx/)
