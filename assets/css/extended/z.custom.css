@@ -6,12 +6,6 @@
   --secondary: rgb(0, 0, 0);
   --content: rgb(0, 0, 0);
 }
-hr {
-  margin-bottom: 15px;
-  height: 1px;
-  background: var(--content);
-  border: 0;
-}
 main.main,
 article.post-single {
   display: grid;

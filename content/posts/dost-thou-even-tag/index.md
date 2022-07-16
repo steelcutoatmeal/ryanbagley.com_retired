@@ -29,6 +29,9 @@ cover:
     relative: false # when using page bundles set this to true
     hidden: false # only hide on current single page
 ---
+
+## 
+
 The Instagram overlanding (off-roading) community was scolded in late 2021. I've been thinking about it since it happened. It caused quite a hullabaloo at the time and there was a brief period of drama. The source was what some saw as a chronic style of behavior in perpetuating a cycle of advertising self-exploitation. The practices of prominent community accounts were called out directly as setting bad examples that trickled down to less known members trying to make a name for themselves. For a community usually oriented around beautiful outdoor pictures and aggressively equipped vehicles, it was an unusual flare up of drama. However, it was well a deserved gut check for the blossoming overlanding community. This brand new hobby has grown exponentially over the past few years. The ask was simple. In order to fix the problem we simply had to adhere to a simple request:
 
 > Stop tagging brands (especially overland brands) on your posts.
