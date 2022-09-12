@@ -53,7 +53,7 @@ I decided to purchase the C4 Fabrication Overland bumper with full headlight loo
 * Power Steering Fluid - There are a lot of options available here but to save myself a headache or potential major issue I simply went into my nearby Toyota Dealership and told them what I was doing and they gave me the correct product. They even verified a single bottle was enough to refill my power steering fluid reservoir. Shady Amazon resellers can't touch that level of confidence.
 * [Baja Designs S8 Series LED Light Bar](https://www.bajadesigns.com/squadron-sport/) - 30" length with amber lenses and the driving/combo pattern.
 * [Baja Designs Squadron Sport LED Lights](https://www.bajadesigns.com/squadron-sport/) - I went with amber lenses and the wide cornering pattern.
-* [Fog Light Connectors](https://www.amazon.com/gp/product/B07CSPGVFJ/ref=ppx_yo_dt_b_asin_title_o09_s00?ie=UTF8&psc=1) - These H11 H8 connectors allowed me to utilize my OEM 4Runner fog log connector plugs rather than cutting any stock wires.
+* [Fog Light Connectors](https://www.amazon.com/gp/product/B07CSPGVFJ/ref=ppx_yo_dt_b_asin_title_o09_s00?ie=UTF8&psc=1) - These H11 H8 connectors allowed me to utilize my OEM 4Runner fog light connector plugs rather than cutting any stock wires.
 * [16 and 14 Gauge Wire](https://www.amazon.com/gp/product/B074DMPH8P/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1) - There are many cheaper alternatives but these wires are 99.99% copper rather than copper clad aluminum. This will help conductivity but it is required to have complete weather sealing to avoid oxidization. I have seen some solar wires that are aluminum clad copper to avoid weathering but it probably isn't needed if you have healthy sealing.
 * [Crimping Tool for Heat Shrink Connectors](https://www.amazon.com/gp/product/B07GFXHH91/ref=ppx_yo_dt_b_asin_title_o09_s00?ie=UTF8&th=1) - In retrospect, I would have actually gotten the crimper in the 8 or 11 piece package because the die is swappable with other crimper dies. This becomes really important if you have plans to add Baja Design lights since they use Weather Pack Connectors.
 * [Heat Gun](https://www.amazon.com/DEWALT-DCE530B-Cordless-Heat-Tool/dp/B07RJDRS6Y/ref=sr_1_1?crid=3KMVYXHXH1PYS&keywords=dewalt%2Bheat%2Bgun&qid=1651118494&sprefix=dewalt%2Bheat%2Bgu%2Caps%2C134&sr=8-1&th=1) - Critical to achieving water tight sealing on your cabling connections. This thing eats batteries like no one's business. Maybe consider a corded version.
@@ -79,7 +79,7 @@ Before removing anything from the 4Runner I measured and marked on the bumper fo
 
 ![Measuring before Cutting](images/cutting-measure.jpg)
 
-#### TSS Sensor Relocation
+### TSS Sensor Relocation
 
 One thing to note is that my 4Runner had a slightly different center mesh setup that most I saw. There was actually a mounting location for my vehicle's TSS sensor right in the center of the plastic mesh, which had to be cut through in order to achieve the same horizontal line across. Luckily, the TSS sensor itself can be unplugged and put to the side in order to avoid the risk of cutting through it. I thought this prudent considering a Toyota Technician at the dealership told me it was a pretty expensive part to replace.
 
