@@ -45,7 +45,7 @@ const fmtImage = async src => {
 
     // create variants
     return image
-      .resize(896, undefined, {
+      .resize(1440, undefined, {
         background: { r: 255, g: 255, b: 255, alpha: 0.0 },
         fit: 'contain',
       })

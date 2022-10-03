@@ -101,7 +101,7 @@ a {
   color: black;
 }
 .header {
-  padding: 20px;
+  padding-top: 40px;
 }
 .post-header {
   margin: unset;
