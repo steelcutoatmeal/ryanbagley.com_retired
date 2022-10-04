@@ -22,15 +22,9 @@ ShowReadingTime: true
 ShowBreadCrumbs: false
 ShowPostNavLinks: false
 ShowRssButtonInSectionTermList: true
-cover:
-    image: "" # image path/url
-    alt: "" # alt text
-    caption: "" # display caption under cover
-    relative: false # when using page bundles set this to true
-    hidden: false # only hide on current single page
 ---
 
-![meadow](images/broadwater-large.jpg)
+![Broadwater Meadow at Sunset](images/broadwater-meadow.jpg)
 
 After the dirty kerfuffle earlier in the summer I decided to pursue some luxury camping conditions. Obviously, the great motivation here was to reduce the pounds of dirt my dogs could absorb into their fur. Another was to solicit my wife into the great outdoors with an easy and enjoyable camping experience. I always feel better blundering around and making obvious mistakes when I have my significant other along with me to cushion the blow to my ego when things inevitably go wrong. If I could just find the right camping location I might just might protect the dogs from themselves and provide my wife with another positive outdoor experience.
 
@@ -39,6 +33,8 @@ Since I've been subject to unrealistic REI Co-Op advertisements my entire life I
 Its surprising how close Broadwater Meadow is to Highway 150 without being flooded by campers and trailers. You can thank the rough roads for gatekeeping the area from the unwashed masses. There are actually two routes to the meadow since FR416 loops to Highway 150 at a north and south location. I found both directions pretty rough in my 4Runner but the northern road was just slightly easier. Before getting off pavement you should be sure to stop at the Upper and Middle Provo River Falls viewpoint. This tourist spot was a bit crowded on a Sunday afternoon in the late summer but worth the stop to stretch the legs and let the dogs sniff around before we hit the last 30 minutes of dirt road to reach the meadow.
 
 On a Sunday late afternoon in early September we were able to claim a decent site for camping. Probably the best location is directly across the meadow on the south end, which you can see in the photograph above. That site is secluded a bit off FR416 whereas the rest of the spots along the meadow perimeter are within 20 feet of the road. So you might have people rolling by (or blazing like a bat out of Hell in the case of our side-by-side friends) your camp at any time of the day or night. Additionally, the view on the south site is better as you are looking north by north east to nearby Mount Cardwell. While not as epic as the view in nearby Christmas Meadow, it still provides for a natural visual endpoint while looking across the meadow rather than the muted hill you see above. Despite all the accolades for the south site, any spot around the meadow is great and will give you a relaxing experience in a semi-alpine environment.
+
+![Broadwater Meadow in the Afternoon](images/broadwater-meadow-stream.jpg)
 
 For dinner, rather than my normal freeze-dried dinner, I was blessed with a fine car camping dining experience. I am normally rather spartan with my food choices and embrace convenience and health rather than elegance and taste. Its not that I don't enjoy finely prepared food but rather that I think the effort required is not warranted on a consistent and or daily basis. I have been known to spend over 12 hours smoking pork ribs yet this is not everyday. Alternatively, my wife will consistently create culinary masterpieces out of seemingly nothing if the mood strikes just right. Take the following example where all these conditions met together perfectly to see what she is capable of creating.
 
