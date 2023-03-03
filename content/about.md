@@ -1,23 +1,6 @@
 ---
 title: "About"
 layout: "about"
-url: "/about/"
-summary: about
-disableHLJS: true # to disable highlightjs
-disableShare: false
-disableHLJS: false
-hideSummary: false
-searchHidden: false
-ShowReadingTime: false
-ShowBreadCrumbs: false
-ShowPostNavLinks: false
-ShowRssButtonInSectionTermList: true
-cover:
-    image: "" # image path/url
-    alt: "" # alt text
-    caption: "" # display caption under cover
-    relative: false # when using page bundles set this to true
-    hidden: false # only hide on current single page
 ---
 
 ## 

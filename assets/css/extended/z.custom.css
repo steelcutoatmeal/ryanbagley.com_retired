@@ -202,3 +202,6 @@ section.home-entry-columns .entry-header picture img,
     height: 100%;
   }
 }
+.about-header {
+  text-align: center;
+}
