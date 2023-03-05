@@ -1,25 +1,9 @@
 ---
 title: "4Runner Scuba Mod"
 date: 2022-08-05T11:30:03+00:00
-# weight: 1
-# aliases: ["/first"]
-# tags: ["first"]
-showToc: false
-TocOpen: false
-draft: false
-hidemeta: false
-comments: false
 description: "Relocating the Differential and E-Locker Breather Vents"
-canonicalURL: "https://canonical.url/to/page"
-disableHLJS: true # to disable highlightjs
-disableShare: false
-disableHLJS: false
-hideSummary: false
 searchHidden: false
 ShowReadingTime: true
-ShowBreadCrumbs: false
-ShowPostNavLinks: false
-ShowRssButtonInSectionTermList: true
 ---
 
 Mechanical engineering is a subject of fascination for me. By that I mean watching loads of Youtube videos where I'm spoon food complex topics and nothing actually hard or challenging. When our family's vacuum died when I was a young teenager, I asked if I could take it apart to see if I could get it working again. Dissecting this seemingly dead appliance was like taking a basic engineering class. I could see at various steps how mechanical energy was transferred from belts to rotating brushes and everything else that goes along with electric motors. So when I heard about the *scuba mod* people were doing to their 4Runner's differential, I had to understand why it was even necessary. And not like the hours of equations my engineering roommate in college used to do. But more like a 5 minute YouTube educational video. Something much more digestible.

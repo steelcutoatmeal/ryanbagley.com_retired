@@ -1,31 +1,9 @@
 ---
 title: "Black Dragon Canyon"
 date: 2022-02-01T11:30:03+00:00
-# weight: 1
-# aliases: ["/first"]
-# tags: ["first"]
-showToc: false
-TocOpen: false
-draft: false
-hidemeta: false
-comments: false
 description: "Where graffiti ages like a fine wine."
-canonicalURL: "https://canonical.url/to/page"
-disableHLJS: true # to disable highlightjs
-disableShare: false
-disableHLJS: false
-hideSummary: false
 searchHidden: false
 ShowReadingTime: true
-ShowBreadCrumbs: false
-ShowPostNavLinks: false
-ShowRssButtonInSectionTermList: true
-cover:
-    image: "" # image path/url
-    alt: "" # alt text
-    caption: "" # display caption under cover
-    relative: false # when using page bundles set this to true
-    hidden: false # only hide on current single page
 ---
 ![Approaching the Canyon](images/black-dragon-2.jpg)
 

@@ -1,25 +1,9 @@
 ---
 title: "Running Kings Peak"
 date: 2022-08-28T11:30:03+00:00
-# weight: 1
-# aliases: ["/first"]
-# tags: ["first"]
-showToc: false
-TocOpen: false
-draft: false
-hidemeta: false
-comments: false
 description: "My First Foray Into Altitude Suffocation"
-canonicalURL: "https://canonical.url/to/page"
-disableHLJS: true # to disable highlightjs
-disableShare: false
-disableHLJS: false
-hideSummary: false
 searchHidden: false
 ShowReadingTime: true
-ShowBreadCrumbs: false
-ShowPostNavLinks: false
-ShowRssButtonInSectionTermList: true
 ---
 
 ![Kings Peak Summit](images/summit.jpg)

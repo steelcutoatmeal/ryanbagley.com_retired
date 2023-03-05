@@ -1,31 +1,11 @@
 ---
 title: "Starting the electrical foundation of my 4Runner"
 date: 2022-01-18T11:30:03+00:00
-# weight: 1
-# aliases: ["/first"]
-# tags: ["first"]
-showToc: true
-TocOpen: true
-draft: false
-hidemeta: false
-comments: false
 description: "Installing the Switch Pros SP-9100, SD Offroad Mount Tray, and ARB Twin Compressor in a 2021 4Runner"
-canonicalURL: "https://canonical.url/to/page"
-disableHLJS: true # to disable highlightjs
-disableShare: false
-disableHLJS: false
-hideSummary: false
 searchHidden: false
 ShowReadingTime: true
-ShowBreadCrumbs: false
-ShowPostNavLinks: false
-ShowRssButtonInSectionTermList: true
-cover:
-    image: "" # image path/url
-    alt: "" # alt text
-    caption: "" # display caption under cover
-    relative: false # when using page bundles set this to true
-    hidden: false # only hide on current single page
+showToc: true
+TocOpen: true
 ---
 
 ![All the Stuff](images/sp1.jpg)
@@ -50,7 +30,7 @@ Another foundational modification to consider in this great initial project is a
 
 ### Mount
 
-To bring all three items together required a not so common vehicle bay mount. There are quite a few available in a wide variety of orientations and combinations, however, I didn't see many on the market that could consolidate a fuse block, a solid state switch, and a large twin air compressor into a single platform. Also, the solid state switch mounting point needs to be vertical since if you mount a Switch Pros SP-9100 horizontally the warranty is actually voided. After some time looking around on various sites and forums I came across the SD Offroad Mount Tray. The product was a little new when I came across it and was only being sold from a guy's Instagram account rather than a traditional website or storefront. This might be a little sketchy to some but I have been coming to enjoy little shops like this more and more. With the huge availability of 3D Printers and other fabrication tools it gives a person with a great idea the platform to publish that idea into the physical world. There are a few other shops I have plans to become a patron of in the future for their original ideas that were successfully implemented into great products. Regardless, this mount tray fit all my needs and past customers seemed to be pleased with the product so I reached out. After a few questions from Derek about my future plans and needs we decided on package and a price. Besides the mount he included the Blue Sea SafetyHub 150, 8 slot bus bar, circuit breaker, 3 fuses (125A, 2x40A), and the rest of the items needed to get everything connected. Prices on fuses, bus bars, and everything else were in line with market rates, if not just a little below. 
+To bring all three items together required a not so common vehicle bay mount. There are quite a few available in a wide variety of orientations and combinations, however, I didn't see many on the market that could consolidate a fuse block, a solid state switch, and a large twin air compressor into a single platform. Also, the solid state switch mounting point needs to be vertical since if you mount a Switch Pros SP-9100 horizontally the warranty is actually voided. After some time looking around on various sites and forums I came across the SD Offroad Mount Tray. The product was a little new when I came across it and was only being sold from a guy's Instagram account rather than a traditional website or storefront. This might be a little sketchy to some but I have been coming to enjoy little shops like this more and more. With the huge availability of 3D Printers and other fabrication tools it gives a person with a great idea the platform to publish that idea into the physical world. There are a few other shops I have plans to become a patron of in the future for their original ideas that were successfully implemented into great products. Regardless, this mount tray fit all my needs and past customers seemed to be pleased with the product so I reached out. After a few questions from Derek about my future plans and needs we decided on package and a price. Besides the mount he included the Blue Sea SafetyHub 150, 8 slot bus bar, circuit breaker, 3 fuses (125A, 2x40A), and the rest of the items needed to get everything connected. Prices on fuses, bus bars, and everything else were in line with market rates, if not just a little below.
 
 ## Parts and Tools
 
@@ -80,7 +60,7 @@ For your own sanity and the sanity of anyone you reside with it would be best to
 
 To kick off the installation and guide us for the rest of the installation is to realize there are simply 8 electrical switches on the Switch Pros SP-9100. Every action during the install is to provide an elegant platform to complete the electrical connection of those switches. The first action requires us to connect each of the 8 switches from the SP-9100 to an individual slot on the bus bar. As you can see in the above image the SP-9100 is vertically mounted very close to the bus bar. The connections on the SP-9100 exit out horizontally, which creates your first design problem you must creatively overcome. I didn't want a larger curved loop of cables so I made all my connections in a rather tight circle back around to the bus bar. A great source of potential cable arrangements is to view the posts on the SD Offroad Mount Instagram page. There are a wide variety of approaches to taming this mane of cables into the bus bar.
 
-### Bus Bar 
+### Bus Bar
 
 Using a bus bar for our 8 switches isn't electrically helpful but it creates a semi-permanent and modular system for completing our electrical connections. The connection from the SP-9100 is intended to be semi-permanent and static while the other side of the bus bar connections are modular. This way you don't have to fiddle with the SP-9100 side of the bus bar when future projects dictate different needs. You can simply disconnect the other side of the bus bar and move things as needed. This comes at a cost of introducing a point in your electrical system to environmental degradation and connection issues. If you already have a permanent system configuration planned out it would be much better to directly connect your devices directly to the SP-9100 and forego the bus bar entirely. Switch-Pros even advises this on their website[^2]. But if you are like me and have a ever changing outlook on your modification endgame it is incredible helpful to have the modularity of a bus bar.
 
@@ -88,7 +68,7 @@ Using a bus bar for our 8 switches isn't electrically helpful but it creates a s
 
 The current capacity for each of the 8 switches of the SP-9100 is outlined in the list below. Switches 1-4 are limited to 18A while 5-8 have a larger 35A capacity. These values are purely maximum and can be adjusted in the SP-9100 mobile application. As an example, on switch 1, my connected device is the trigger wire for my ARB twin air compressor and it is rated down to 5A. The trigger wire is basically an on/off switch for the compressor and doesn't need any more current. There are many more features the SP-9100 can do such as strobe, 10% light output dimming, and a variety of trigger actions[^3]. Another convenient thing about using the SP-9100 is that the fuses are built inline within the device. So you can connect all of your devices directly into the SP-9100 without those bulky inline fuses. The only catch is that if you exceed 85% of the switch load and you can't move to a higher capacity switch they do recommend adding a relay or fuse inline[^4].
 
-### Switch Pros SP-9100 wires:
+### Switch Pros SP-9100 Wires
 
 * Brown - Switch 1 - (18A)
 * Red - Switch 2 - (18A)
@@ -113,19 +93,19 @@ Based on the guide from SD Offroad there are several cycles of putting the mount
 
 ### Pre-Installation
 
-Placement of the mount tray is pretty straight forward. My 2021 model had a few differences from the SD Offroad Mount installation guide but it wasn't anything major. The only physical modification required before being able to get the tray in was to file off the retention tab of the steel plate to the right of the smaller *RELAY & FUSE* black box. Getting the retention tab out of the way opens up the use of a required threaded mounting hole for the tray support bracket. 
+Placement of the mount tray is pretty straight forward. My 2021 model had a few differences from the SD Offroad Mount installation guide but it wasn't anything major. The only physical modification required before being able to get the tray in was to file off the retention tab of the steel plate to the right of the smaller *RELAY & FUSE* black box. Getting the retention tab out of the way opens up the use of a required threaded mounting hole for the tray support bracket.
 
 Another preparation required before getting the tray installed would be to run the longer SP-9100 wires from the engine bay into the vehicle cab. This would be the pink, white, and blue wires. Disconnecting the wire harness from the SP-9100 would be appropriate here in order to get the most flexibility. I chose to puncture through the circular black rubber grommet in order to get these wires through, however, there are probably more appropriate conduits available. I certainly recommend researching this further and I consider it one of my oversights when performing this installation. The grommet was actually a pain to work with since any pressure from either direction would unseat the perimeter flange lip. Getting it back to a sealed state was a major pain due to the tight space around the grommet on both the engine compartment and cabin sides. However, it is critical to get the grommet back in place as it is the only mechanism to stop water and anything else from entering the cabin for that rather large hole.
 
-### Installation 
+### Installation
 
-After these items are taken care of you can loosely install the tray. Make sure to coat the bottom leg support bolts with anti-seize lubricant since they exit directly within the wheel well. They will be directly exposed to the harshest conditions you'll be driving in. The bolts also might be a bit firm when screwing them in for the first time but that is just the OEM plugs being forced out. When checking hood clearance for the tray it is a bit tricky to see if things are bashing into each other. I stuck my phone into the engine bay while taking a video and closing the hood in order to get an idea of physical clearance. My 2021 model has a fire retardant fabric on the bottom of the hood and is slightly pressed against by the vertical ARB compressor coupling. There are ways to modify the angle of the coupling mount on the ARB but I didn't think it was necessary with my minimal amount of contact. I have seen other kinds of couplings, such as pure brass right angle hardware that might better fit in your intended setup. 
+After these items are taken care of you can loosely install the tray. Make sure to coat the bottom leg support bolts with anti-seize lubricant since they exit directly within the wheel well. They will be directly exposed to the harshest conditions you'll be driving in. The bolts also might be a bit firm when screwing them in for the first time but that is just the OEM plugs being forced out. When checking hood clearance for the tray it is a bit tricky to see if things are bashing into each other. I stuck my phone into the engine bay while taking a video and closing the hood in order to get an idea of physical clearance. My 2021 model has a fire retardant fabric on the bottom of the hood and is slightly pressed against by the vertical ARB compressor coupling. There are ways to modify the angle of the coupling mount on the ARB but I didn't think it was necessary with my minimal amount of contact. I have seen other kinds of couplings, such as pure brass right angle hardware that might better fit in your intended setup.
 
 ![clearance](images/sp5.jpg)
 
 One last point involves skipping the rivet installation for the mount tray. While the SD Offroad installation includes this as a step during installation I found that the mount tray was stable enough with all the other hardware to not warrant putting in the rivet. This might change after the physical stress of traversing over several thousand miles of washboard roads over the next year or two but I will monitor it closely, as I do with all my other bolted on modifications. Another reason for not installing the rivet was just avoiding an extra bolt to take out in case any access to the engine bay fuse box is needed. This is a minor reason and would only amount to saving a minute or two down the line.
 
-## Electrical 
+## Electrical
 
 ### ARB Twin Compressor Wiring
 
@@ -147,7 +127,7 @@ The methodology for selecting my fuse tap locations can be demonstrated in the p
 
 ![fuse testing](images/sp7.jpg)
 
-Cutting a fuse in half will give you a simple tool that can tell you if either side of fuse is energized or not. Fair warning that you will need a multimeter to help out here. Be aware that each fuse rail will have a negative side that will show no electrical charge in any state. If you see that behavior just keep a note of it since it is important later for correctly orientating the add-a-fuse tap. By taking this mangled fuse and plugging it into each fuse rail while the engine is completely off we can identify which fuses have unswitched power.  For this application you don't want to use those because it will needlessly drain your power when the vehicle is off. Further isolation with the ignition enabled but the engine still off can show us the switched (RAP) powered fuses. Lastly, with the engine running we can see which fuses are powered by purely switched power. 
+Cutting a fuse in half will give you a simple tool that can tell you if either side of fuse is energized or not. Fair warning that you will need a multimeter to help out here. Be aware that each fuse rail will have a negative side that will show no electrical charge in any state. If you see that behavior just keep a note of it since it is important later for correctly orientating the add-a-fuse tap. By taking this mangled fuse and plugging it into each fuse rail while the engine is completely off we can identify which fuses have unswitched power.  For this application you don't want to use those because it will needlessly drain your power when the vehicle is off. Further isolation with the ignition enabled but the engine still off can show us the switched (RAP) powered fuses. Lastly, with the engine running we can see which fuses are powered by purely switched power.
 
 ### Tap orientation
 
@@ -157,11 +137,11 @@ If during the course of your testing you found that some sides of fuses were com
 
 ### Wiring Gauge
 
-All of the wiring is already supplied from the products purchased for this project but if you want a head start on wiring new accessories it would be helpful to know what size (gauge) wire you need. The company Blue Sea Systems has a [great chart outlining the needs for wire gauge based on distance and amperage](http://assets.bluesea.com/files/resources/newsletter/images/DC_wire_selection_chartlg.jpg). Since the American automotive DC voltage standard is 12.8V we are subject to making up the difference with high amperage draw to get anything of substance running. 
+All of the wiring is already supplied from the products purchased for this project but if you want a head start on wiring new accessories it would be helpful to know what size (gauge) wire you need. The company Blue Sea Systems has a [great chart outlining the needs for wire gauge based on distance and amperage](http://assets.bluesea.com/files/resources/newsletter/images/DC_wire_selection_chartlg.jpg). Since the American automotive DC voltage standard is 12.8V we are subject to making up the difference with high amperage draw to get anything of substance running.
 
 ## Problems, Workarounds, and Suggestions
 
-Every project in almost any hobby has a balancing act of convenience, cost, and intention. The electrical foundation I have built is no different. There will be times in the future where I question my own judgement on selecting certain components and also deriding the architecture of product designers as I become more proficient with my gear. To save you the several year wait before I become enlightened I will make a few critiques of the entire setup. Hopefully this helps people going down the same path from needless frustration or some missing piece of information. 
+Every project in almost any hobby has a balancing act of convenience, cost, and intention. The electrical foundation I have built is no different. There will be times in the future where I question my own judgement on selecting certain components and also deriding the architecture of product designers as I become more proficient with my gear. To save you the several year wait before I become enlightened I will make a few critiques of the entire setup. Hopefully this helps people going down the same path from needless frustration or some missing piece of information.
 
 ### Location
 
@@ -169,7 +149,7 @@ The engine bay near the starter battery is without a doubt the absolute best loc
 
 ### Layout and Orientation
 
-Another critique is the layout of the SD Offroad Mount Tray itself. There are many different styles of the mount and the respective arrangement of components. But for mine it felt cramped between the SP-9100, bus bar, and the SafetyHub 150 fuse block. To accommodate everything together involved a lot of cursing and finger mashing. The first aspect of this problem is the incredibly small space and orientation between the vertical SP-9100 and the horizontal bus bar. Realistically, you want the left side of the bus bar available since it is closest to the gap used for wiring cables. That only leaves the right hand side to wire up the SP-9100 at an insane angle. No matter how you wire the SP-9100 to the bus bar you will inevitably block the bus bar from above. I am not looking forward to the time when I try to plug in switches 5-8 as they are behind the fat wad of SP-9100 cables. 
+Another critique is the layout of the SD Offroad Mount Tray itself. There are many different styles of the mount and the respective arrangement of components. But for mine it felt cramped between the SP-9100, bus bar, and the SafetyHub 150 fuse block. To accommodate everything together involved a lot of cursing and finger mashing. The first aspect of this problem is the incredibly small space and orientation between the vertical SP-9100 and the horizontal bus bar. Realistically, you want the left side of the bus bar available since it is closest to the gap used for wiring cables. That only leaves the right hand side to wire up the SP-9100 at an insane angle. No matter how you wire the SP-9100 to the bus bar you will inevitably block the bus bar from above. I am not looking forward to the time when I try to plug in switches 5-8 as they are behind the fat wad of SP-9100 cables.
 
 In addition, the space between the bus bar and the fuse block is much too small. I would like to see more room on the fuse block side since it will get a lot more use than the SP-9100 bus bar. Pushing the fuse block mount location an inch to the left and expanding that cable access hole would ease a lot of my worries about the physical ease of installing, diagnosing, or removing connections from the fuse block.
 

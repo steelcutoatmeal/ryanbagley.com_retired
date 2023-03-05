@@ -1,25 +1,9 @@
 ---
 title: "Dost Thou Even Tag?"
 date: 2022-07-16T11:30:03+00:00
-# weight: 1
-# aliases: ["/first"]
-# tags: ["first"]
-showToc: false
-TocOpen: false
-draft: false
-hidemeta: false
-comments: false
 description: "You should probably stop tagging companies in your social media posts"
-canonicalURL: "https://canonical.url/to/page"
-disableHLJS: true # to disable highlightjs
-disableShare: false
-disableHLJS: false
-hideSummary: false
 searchHidden: false
 ShowReadingTime: true
-ShowBreadCrumbs: false
-ShowPostNavLinks: false
-ShowRssButtonInSectionTermList: true
 ---
 
 ## 

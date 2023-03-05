@@ -1,25 +1,9 @@
 ---
 title: "Iron Mine Lake"
 date: 2022-07-05T11:30:03+00:00
-# weight: 1
-# aliases: ["/first"]
-# tags: ["first"]
-showToc: false
-TocOpen: false
-draft: false
-hidemeta: false
-comments: false
 description: "When Nature Demands Blood"
-canonicalURL: "https://canonical.url/to/page"
-disableHLJS: true # to disable highlightjs
-disableShare: false
-disableHLJS: false
-hideSummary: false
 searchHidden: false
 ShowReadingTime: true
-ShowBreadCrumbs: false
-ShowPostNavLinks: false
-ShowRssButtonInSectionTermList: true
 ---
 
 ![iron-mine-lake](images/iron-mine-lake.jpg)

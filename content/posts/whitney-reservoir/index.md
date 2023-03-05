@@ -1,31 +1,9 @@
 ---
 title: "Whitney Reservoir"
 date: 2021-07-21T11:30:03+00:00
-# weight: 1
-# aliases: ["/first"]
-# tags: ["first"]
-showToc: true
-TocOpen: false
-draft: false
-hidemeta: false
-comments: false
 description: "An experiment in the mud carrying capacity of an unladen canine."
-canonicalURL: "https://canonical.url/to/page"
-disableHLJS: true # to disable highlightjs
-disableShare: false
-disableHLJS: false
-hideSummary: false
 searchHidden: false
 ShowReadingTime: true
-ShowBreadCrumbs: false
-ShowPostNavLinks: false
-ShowRssButtonInSectionTermList: true
-cover:
-    image: "" # image path/url
-    alt: "" # alt text
-    caption: "" # display caption under cover
-    relative: false # when using page bundles set this to true
-    hidden: false # only hide on current single page
 ---
 
 ![Whitney Reservoir](images/whitney-stream.jpg)

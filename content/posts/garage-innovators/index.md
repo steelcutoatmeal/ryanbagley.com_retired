@@ -1,25 +1,9 @@
 ---
 title: "Garage Innovators"
 date: 2022-12-13T11:30:03+00:00
-# weight: 1
-# aliases: ["/first"]
-# tags: ["first"]
-showToc: false
-TocOpen: false
-draft: false
-hidemeta: false
-comments: false
 description: "Small Businesses that Make Custom 5th Gen 4Runner Products - Mad Scientists or Trailer Blazers? How they Turned their Ideas into Reality"
-canonicalURL: "https://canonical.url/to/page"
-disableHLJS: true # to disable highlightjs
-disableShare: false
-disableHLJS: false
-hideSummary: false
 searchHidden: false
 ShowReadingTime: true
-ShowBreadCrumbs: false
-ShowPostNavLinks: false
-ShowRssButtonInSectionTermList: true
 ---
 
 > **Note**

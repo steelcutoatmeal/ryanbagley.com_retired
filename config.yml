@@ -24,7 +24,6 @@ params:
     description: "The adventure blog of Ryan Bagley"
     keywords: [Adventure, Overland, Blog]
     author: Ryan Bagley
-    # author: ["Me", "You"] # multiple authors
     images: ["<link or path of image for opengraph, twitter-cards>"]
     DateFormat: "January 2, 2006"
     defaultTheme: light

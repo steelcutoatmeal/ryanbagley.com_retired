@@ -1,31 +1,11 @@
 ---
 title: "Installing the C4 Fabrication Overland Bumper on a 2021 4Runner"
 date: 2022-04-24T11:30:03+00:00
-# weight: 1
-# aliases: ["/first"]
-# tags: ["first"]
-showToc: true
-TocOpen: true
-draft: false
-hidemeta: false
-comments: false
 description: "Protecting Your Front End and Increasing Approach Angles"
-canonicalURL: "https://canonical.url/to/page"
-disableHLJS: true # to disable highlightjs
-disableShare: false
-disableHLJS: false
-hideSummary: false
 searchHidden: false
 ShowReadingTime: true
-ShowBreadCrumbs: false
-ShowPostNavLinks: false
-ShowRssButtonInSectionTermList: true
-cover:
-    image: "" # image path/url
-    alt: "" # alt text
-    caption: "" # display caption under cover
-    relative: false # when using page bundles set this to true
-    hidden: false # only hide on current single page
+showToc: true
+TocOpen: true
 ---
 
 ![Fully Installed C4 Fabrication Overland Bumper on 4Runner](images/c4-bumper.jpg)
